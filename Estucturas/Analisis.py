@@ -108,9 +108,9 @@ def mayorAlpromedio (nombre_archivo):
             if duracioncancion > promedio:
                 print(f"- {cancionName} ({duracioncancion} ms)")
                 cont+=1
-            else:
-                print (f"No hay canciones con duración mayor al promedio")
-    
+
+    if (cont ==0):    
+        print (f"No hay canciones con duración mayor al promedio")
     return cont 
 
 
