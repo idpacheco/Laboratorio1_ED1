@@ -34,3 +34,20 @@ def promedioBytes(nombre_archivo):
     else:
        return 0
 
+
+def buscarCancionesArtista(nombre_archivo, artista_buscado):
+    try:
+        with open(nombre_archivo, "r") as f:
+            count = 0    # Cantidad de canciones encontradas
+            lecturas = 0   # Cantidad de líneas leídas (operaciones de lectura)
+
+            for linea in f:
+                lecturas += 1
+                if artista_buscado.lower() in linea.lower():
+                    count += 1
+
+        print(f"Se realizaron {lecturas} operaciones de lectura.")
+        return count
+    except Exception as e:
+        print("error al buscar canciones: ", e)
+        return 0
