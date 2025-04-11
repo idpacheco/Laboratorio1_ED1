@@ -113,8 +113,57 @@ def mayorAlpromedio (nombre_archivo):
         print (f"No hay canciones con duración mayor al promedio")
     return cont 
 
+def ordenarPorPopularidad(nombre_archivo, nombre_salida):
+    def obtenerPopularidad(linea):
+        # Obtiene el campo 4: Popularidad (asumimos que empieza en la línea 5)
+        return int(obtenerCampo(linea, 4).strip())
+    
+    def estaProcesada(linea):
+        return "[X]" in linea
 
+    def marcarComoProcesada(linea):
+        return "[X] " + linea  # le agrega un prefijo para saber que ya fue procesada
 
+    # Copiamos el archivo original a uno temporal donde vamos a marcar las líneas procesadas
+    import shutil
+    archivo_temp = "songs_temp.txt"
+    shutil.copy(nombre_archivo, archivo_temp)
 
+    with open(nombre_salida, "w", encoding="utf-8") as salida:
+        salida.write("CANCIONES ORDENADAS POR POPULARIDAD".center(100, "=") + "\n\n")
+        salida.write(f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas\n")
+        salida.write("-" * 100 + "\n")
 
-           
+        while True:
+            max_linea = None
+            max_popu = -1
+
+            # Abrimos el archivo temporal y buscamos la canción más popular no procesada
+            with open(archivo_temp, "r", encoding="ISO-8859-1") as temp:
+                for linea in temp:
+                    if "|" in linea and not estaProcesada(linea):
+                        try:
+                            popu = obtenerPopularidad(linea)
+                            if popu > max_popu:
+                                max_popu = popu
+                                max_linea = linea
+                        except:
+                            continue  # por si falla al convertir algo
+
+            if not max_linea:
+                break  # ya no quedan canciones sin procesar
+
+            salida.write(max_linea)
+
+            # Ahora que encontramos la canción más popular, la marcamos como procesada
+            with open(archivo_temp, "r+", encoding="ISO-8859-1") as temp:
+                contenido = temp.readlines()
+                temp.seek(0)  # Volvemos al inicio para sobrescribir el archivo
+                for linea in contenido:
+                    if linea == max_linea:
+                        temp.write(marcarComoProcesada(linea))
+                    else:
+                        temp.write(linea)
+                temp.truncate()  # Aseguramos que el archivo no quede con datos sobrantes
+
+    print(f"✅ Canciones ordenadas guardadas en '{nombre_salida}'")

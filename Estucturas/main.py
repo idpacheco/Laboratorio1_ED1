@@ -1,6 +1,6 @@
 from SpotifyAPI import getAccessToken, getPlayList
 from Archivos import guardarCanciones, guardarArtistas
-from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio
+from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio, ordenarPorPopularidad
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
 client_id= "d6d0ada48ab5470b8751788ecf8624c8"
 client_secret="ac7a2ed9117241e7adb9ea2418b2371f"
@@ -44,3 +44,6 @@ print(f"🎵 Total de canciones de '{artista_buscado}': {total}")
 
 cont = mayorAlpromedio(archivo_canciones)
 print(f"Hay '{cont}' canciones con mayor duración al promedio")
+
+ordenarPorPopularidad("canciones.txt", "canciones_ordenadas.txt")
+
