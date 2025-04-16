@@ -26,7 +26,7 @@ printTrackNames(playlist)
 guardarCanciones(playlist['tracks']['items'], "canciones.txt")
 archivo_canciones = "canciones.txt"  # o el nombre que le diste
 
-guardarArtistas(playlist['tracks']['items'], "artistas.txt")
+guardarArtistas(playlist['tracks']['items'], "artistas.txt", token)
 archivo_artistas = "artistas.txt"  # o el nombre que le diste
 
 artista, cantidad = artistaMasCanciones(archivo_artistas)
@@ -45,5 +45,15 @@ print(f"🎵 Total de canciones de '{artista_buscado}': {total}")
 cont = mayorAlpromedio(archivo_canciones)
 print(f"Hay '{cont}' canciones con mayor duración al promedio")
 
-ordenarPorPopularidad("canciones.txt", "canciones_ordenadas.txt")
+ordenarPorPopularidad("canciones.txt",
+    "canciones_ordenadas.txt",
+    4,
+    "CANCIONES ORDENADAS POR POPULARIDAD",
+    f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas")
+ordenarPorPopularidad("artistas.txt",
+    "artistas_ordenados.txt",
+    2,
+    "ARTISTAS ORDENADOS POR POPULARIDAD",
+    f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones")
+
 

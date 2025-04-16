@@ -19,31 +19,61 @@ def guardarCanciones (canciones, nombreArchivo):
         file.write(f"{id_cancion:22} | {nombre:30} | {duracion:<13} | {popularidad:<10} | {artistas_str}\n")
     file.close()
 
-def guardarArtistas (canciones, nombreArchivo):
-    file=open(nombreArchivo, "w") #Crear el archivo y escribir sobre el archivo
-    #un diccionario para agrupar al artista con las canciones
-    #n diccionario puedes asociar una clave con un valor, y ese valor puede ser cualquier cosa: un número, una cadena, una lista, otro diccionario, etc.
-    artistas_agrup = {}
-    for item in canciones: 
-        track= item['track']
-        id_cancion = track['id']
-        nombre_cancion = track['name']
-        for artista in track ['artists']:
-            nombre_artista= artista['name']
-            if nombre_artista not in artistas_agrup:
-                #si el artista no esta todavia guardado en el diccionario
-                # entonces creale una lista vacía donde le vamos a meter las canciones
-                artistas_agrup [nombre_artista]=[]
-            artistas_agrup [nombre_artista].append(id_cancion)
+# los datos que se obtienen de los artistas son limitados (nombre, ID, etc.), pero no incluyen la popularidad del artista.
+def getPopularidadArtista(artist_id, token): #La única forma de obtener el campo 'popularidad' de un artista es haciendo una solicitud directa al endpoint del artista.
+    import requests
+    try:
+        url = f"https://api.spotify.com/v1/artists/{artist_id}"
+        headers = {"Authorization": f"Bearer {token}"}
+        res = requests.get(url, headers=headers)
+        if res.status_code == 200:
+            return res.json().get("popularity", 0)
+        else:
+            print(f"Error al obtener artista {artist_id}: {res.status_code}")
+            return 0
+    except Exception as e:
+        print(f"Error al obtener popularidad del artista: {e}")
+        return 0
+    
+def guardarArtistas(canciones, nombreArchivo, token):
+    import requests
+    file = open(nombreArchivo, "w")
 
-    #Recorre el diccionario que se acabo de crear para ponerlo en el archivo
-     # Escribimos un título centrado
-    file.write("ARTISTAS".center(100, "=") + "\n\n")
-        # Por cada artista en el diccionario
-    for artista, canciones_ids in artistas_agrup.items():
-        cantidad = len (canciones_ids)
+    artistas_agrup = {}
+    popularidades = {}  # caché de popularidades
+
+    for item in canciones:
+        track = item['track']
+        id_cancion = track['id']
+
+        for artista in track['artists']:
+            nombre_artista = artista['name']
+            id_artista = artista['id']
+
+            if nombre_artista not in artistas_agrup:
+                artistas_agrup[nombre_artista] = {
+                    'id': id_artista,
+                    'canciones': []
+                }
+
+            artistas_agrup[nombre_artista]['canciones'].append(id_cancion)
+
+    file.write("ARTISTAS".center(120, "=") + "\n\n")
+    file.write(f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones\n")
+    file.write("-" * 120 + "\n")
+
+    for artista, datos in artistas_agrup.items():
+        id_artista = datos['id']
+        canciones_ids = datos['canciones']
+
+        # Obtener popularidad (con caché)
+        if id_artista not in popularidades:
+            popularidades[id_artista] = getPopularidadArtista(id_artista, token)
+        popularidad = popularidades[id_artista]
+
+        cantidad = len(canciones_ids)
         canciones_str = ", ".join(canciones_ids)
-        linea = f"{artista} | {cantidad}| {canciones_str}\n"
+        linea = f"{artista:30} | {popularidad:<12} | {cantidad:<12} | {canciones_str}\n"
         file.write(linea)
 
     file.close()

@@ -2,14 +2,18 @@ def artistaMasCanciones (nombre_archivo):
     max_artista =None
     max_canciones = 0
     file = open (nombre_archivo, "r")
+    for _ in range(4):  # Saltar las primeras 4 líneas decorativas
+            next(file)
+
     for linea in file:
         if "|" in linea:
             #lista o vector que contiene los fragmentos del texto que estaban separados con |
             partes = linea.strip().split("|")  
             #divide la linea eliminando los espacios y dividiendola en subcadenas
             artista = partes [0].strip()
-            cantidad = int (partes [1].strip())
-            canciones = partes [2].strip()
+            popularidad = partes[1].strip()
+            cantidad = int (partes [2].strip())
+            canciones = partes [3].strip()
             if cantidad> max_canciones:
                 max_canciones = cantidad
                 max_artista = artista
@@ -113,10 +117,10 @@ def mayorAlpromedio (nombre_archivo):
         print (f"No hay canciones con duración mayor al promedio")
     return cont 
 
-def ordenarPorPopularidad(nombre_archivo, nombre_salida):
+def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titulo, encabezados):
     def obtenerPopularidad(linea):
-        # Obtiene el campo 4: Popularidad (asumimos que empieza en la línea 5)
-        return int(obtenerCampo(linea, 4).strip())
+        # Obtiene el campo de Popularidad (asumimos que empieza en la línea 5)
+        return int(obtenerCampo(linea, campo_popularidad).strip())
     
     def estaProcesada(linea):
         return "[X]" in linea
@@ -126,12 +130,12 @@ def ordenarPorPopularidad(nombre_archivo, nombre_salida):
 
     # Copiamos el archivo original a uno temporal donde vamos a marcar las líneas procesadas
     import shutil
-    archivo_temp = "songs_temp.txt"
+    archivo_temp = "archivo_temp.txt"
     shutil.copy(nombre_archivo, archivo_temp)
 
     with open(nombre_salida, "w", encoding="utf-8") as salida:
-        salida.write("CANCIONES ORDENADAS POR POPULARIDAD".center(100, "=") + "\n\n")
-        salida.write(f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas\n")
+        salida.write(titulo.center(100, "=") + "\n\n")
+        salida.write(encabezados + "\n")
         salida.write("-" * 100 + "\n")
 
         while True:
@@ -166,4 +170,4 @@ def ordenarPorPopularidad(nombre_archivo, nombre_salida):
                         temp.write(linea)
                 temp.truncate()  # Aseguramos que el archivo no quede con datos sobrantes
 
-    print(f"✅ Canciones ordenadas guardadas en '{nombre_salida}'")
+    print(f"✅ Ordenación por popularidad guardada en '{nombre_salida}'")
