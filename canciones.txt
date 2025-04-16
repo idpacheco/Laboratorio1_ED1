@@ -52,3 +52,4 @@ ID                     | Nombre                         | Duración (ms) | Popula
 5meVa5klVlJalupZTvv5XX | 21                             | 185172        | 75         | Gracie Abrams
 3Eb5sztvEMa0Mqnb8DUAlU | Come Inside Of My Heart        | 246396        | 78         | IV Of Spades
 5JwZwNT0SyOZlErdpvdEg3 | Obtener un Si                  | 199173        | 50         | Shakira
+39SQ0CjIineoa2mbiJpZdk | Captivated                     | 219949        | 61         | IV Of Spades

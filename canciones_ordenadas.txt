@@ -37,6 +37,7 @@ ID                     | Nombre                         | Duración (ms) | Popul
 550erGcdD9n6PnwxrvYqZT | Hey Stephen (Taylors Version) | 254254        | 66         | Taylor Swift
 5IhzJOXNE7ki0IIJbZbnGq | Canyon Moon                    | 189786        | 66         | Harry Styles
 7eQj6r5PIdYKEIZjucBMcq | Stay Stay Stay (Taylor's Version) | 205786        | 64         | Taylor Swift
+39SQ0CjIineoa2mbiJpZdk | Captivated                     | 219949        | 61         | IV Of Spades
 6sI8Q7TTJeA9exw6hxEqq3 | Blueberry Eyes (feat. SUGA of BTS) | 172244        | 58         | MAX, SUGA
 5ld8E3DVBXCCWQ54yrkWVp | 305                            | 189072        | 57         | Shawn Mendes
 5lLArVpMg2z8l3qggp7zmD | Mi Otra Mitad                  | 195970        | 57         | Manuel Medrano

@@ -11,8 +11,8 @@ Gracie Abrams                  | 89           | 1            | 5meVa5klVlJalupZT
 Shakira                        | 89           | 1            | 5JwZwNT0SyOZlErdpvdEg3
 Maroon 5                       | 87           | 1            | 5qII2n90lVdPDcgXEEVHNy
 Kali Uchis                     | 86           | 4            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 6XaJfhwof7qIgbbXO5tIQI, 2kSb3wYSOV996xA2NSmpck
+The Beatles                    | 86           | 1            | 6dGnYIeXmHdcikdzNNDMm2
 Daniel Caesar                  | 86           | 1            | 736PP5LTtREkDgktNmX3Gu
-The Beatles                    | 85           | 1            | 6dGnYIeXmHdcikdzNNDMm2
 Harry Styles                   | 84           | 7            | 1qEmFfgcLObUfQm0j1W2CK, 51Zw1cKDgkad0CXv23HCMU, 69w5X6uTrOaWM32IetSzvO, 5IhzJOXNE7ki0IIJbZbnGq, 3jjujdWJ72nww5eGnfs2E7, 6iYMfxznTBlcVOgRHab2W0, 2IOFZdYYkFxEHVz1w34PoL
 Shawn Mendes                   | 84           | 1            | 5ld8E3DVBXCCWQ54yrkWVp
 The Lumineers                  | 80           | 1            | 5NORWMFC27ywGSZxi8uquP
@@ -23,7 +23,7 @@ Manuel Medrano                 | 70           | 1            | 5lLArVpMg2z8l3qgg
 Bootsy Collins                 | 68           | 1            | 1otG6j1WHNvl9WgXLWkHTo
 BØRNS                          | 68           | 1            | 7HwoUfASF7xwt4vFEhkQF3
 MAX                            | 66           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
-IV Of Spades                   | 66           | 1            | 3Eb5sztvEMa0Mqnb8DUAlU
+IV Of Spades                   | 66           | 2            | 3Eb5sztvEMa0Mqnb8DUAlU, 39SQ0CjIineoa2mbiJpZdk
 Dayglow                        | 65           | 2            | 64lsIF5pw0sJY0gV5kz0RN, 0AsUVUloJ52ZCXmqrMFgOI
 SUGA                           | 63           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
 THE DRIVER ERA                 | 61           | 2            | 2PYSA0e7vCpXqN2iPHTXTN, 2KKBlK4IZUdjlJ7F0WGzU6

@@ -11,7 +11,7 @@ Artista                        | Popularidad  | # Canciones  | Canciones
 [X] Kali Uchis                     | 86           | 4            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 6XaJfhwof7qIgbbXO5tIQI, 2kSb3wYSOV996xA2NSmpck
 [X] Tyler, The Creator             | 91           | 3            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 3jHdKaLCkuNEkWcLVmQPCX
 [X] Bootsy Collins                 | 68           | 1            | 1otG6j1WHNvl9WgXLWkHTo
-[X] The Beatles                    | 85           | 1            | 6dGnYIeXmHdcikdzNNDMm2
+[X] The Beatles                    | 86           | 1            | 6dGnYIeXmHdcikdzNNDMm2
 [X] Dayglow                        | 65           | 2            | 64lsIF5pw0sJY0gV5kz0RN, 0AsUVUloJ52ZCXmqrMFgOI
 [X] MAX                            | 66           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
 [X] SUGA                           | 63           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
@@ -29,5 +29,5 @@ Artista                        | Popularidad  | # Canciones  | Canciones
 [X] Daniel Caesar                  | 86           | 1            | 736PP5LTtREkDgktNmX3Gu
 [X] Peso Pluma                     | 92           | 1            | 6XaJfhwof7qIgbbXO5tIQI
 [X] Gracie Abrams                  | 89           | 1            | 5meVa5klVlJalupZTvv5XX
-[X] IV Of Spades                   | 66           | 1            | 3Eb5sztvEMa0Mqnb8DUAlU
+[X] IV Of Spades                   | 66           | 2            | 3Eb5sztvEMa0Mqnb8DUAlU, 39SQ0CjIineoa2mbiJpZdk
 [X] Shakira                        | 89           | 1            | 5JwZwNT0SyOZlErdpvdEg3

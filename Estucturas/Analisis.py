@@ -171,3 +171,23 @@ def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titu
                 temp.truncate()  # Aseguramos que el archivo no quede con datos sobrantes
 
     print(f"✅ Ordenación por popularidad guardada en '{nombre_salida}'")
+
+def artistaMasPopular(nombre_archivo):
+    try:
+        with open(nombre_archivo, "r") as f:
+            # Saltamos las primeras 4 líneas si son encabezados
+            for _ in range(4):
+                next(f)
+            
+            # Leemos la primera línea después de los encabezados
+            linea = next(f, None)  # Usamos next para leer la siguiente línea de manera segura
+            if linea:
+                #se obtienen los campos de artista y popularidad
+                max_artista = obtenerCampo(linea, 1)  # El nombre del artista
+                max_popularidad = obtenerCampo(linea, 2) # La popularidad 
+
+                # Como el archivo está ordenado, ya no necesitamos continuar
+                print(f"El artista más popular es: {max_artista} con una popularidad de {max_popularidad}")
+    except Exception as e:
+        print("Error al buscar artista con mayor índice de popularidad:", e)
+        return None

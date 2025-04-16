@@ -1,6 +1,6 @@
 from SpotifyAPI import getAccessToken, getPlayList
 from Archivos import guardarCanciones, guardarArtistas
-from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio, ordenarPorPopularidad
+from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio, ordenarPorPopularidad, artistaMasPopular
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
 client_id= "d6d0ada48ab5470b8751788ecf8624c8"
 client_secret="ac7a2ed9117241e7adb9ea2418b2371f"
@@ -56,4 +56,4 @@ ordenarPorPopularidad("artistas.txt",
     "ARTISTAS ORDENADOS POR POPULARIDAD",
     f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones")
 
-
+artistaMasPopular(archivo_artistas)

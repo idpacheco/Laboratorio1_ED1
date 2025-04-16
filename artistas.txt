@@ -11,7 +11,7 @@ Maroon 5                       | 87           | 1            | 5qII2n90lVdPDcgXE
 Kali Uchis                     | 86           | 4            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 6XaJfhwof7qIgbbXO5tIQI, 2kSb3wYSOV996xA2NSmpck
 Tyler, The Creator             | 91           | 3            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 3jHdKaLCkuNEkWcLVmQPCX
 Bootsy Collins                 | 68           | 1            | 1otG6j1WHNvl9WgXLWkHTo
-The Beatles                    | 85           | 1            | 6dGnYIeXmHdcikdzNNDMm2
+The Beatles                    | 86           | 1            | 6dGnYIeXmHdcikdzNNDMm2
 Dayglow                        | 65           | 2            | 64lsIF5pw0sJY0gV5kz0RN, 0AsUVUloJ52ZCXmqrMFgOI
 MAX                            | 66           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
 SUGA                           | 63           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
@@ -29,5 +29,5 @@ The Lumineers                  | 80           | 1            | 5NORWMFC27ywGSZxi
 Daniel Caesar                  | 86           | 1            | 736PP5LTtREkDgktNmX3Gu
 Peso Pluma                     | 92           | 1            | 6XaJfhwof7qIgbbXO5tIQI
 Gracie Abrams                  | 89           | 1            | 5meVa5klVlJalupZTvv5XX
-IV Of Spades                   | 66           | 1            | 3Eb5sztvEMa0Mqnb8DUAlU
+IV Of Spades                   | 66           | 2            | 3Eb5sztvEMa0Mqnb8DUAlU, 39SQ0CjIineoa2mbiJpZdk
 Shakira                        | 89           | 1            | 5JwZwNT0SyOZlErdpvdEg3
