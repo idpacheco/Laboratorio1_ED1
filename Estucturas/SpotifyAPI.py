@@ -1,4 +1,6 @@
+import spotipy # type: ignore #Esto es para poder usar la API de spotify
 import requests # type: ignore #Esto es para poderle solicitar los datos a la API
+from spotipy.oauth2 import SpotifyClientCredentials
 
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
 client_id= "d6d0ada48ab5470b8751788ecf8624c8"
@@ -27,3 +29,25 @@ def getPlayList(access_token: str, playlist_id):
         return None
 
 playlist = getPlayList(token, "1iFJnL9bCaSkDRMua0gMGY")
+
+
+def obtenerDatosDesdeSpotify(id_cancion):
+    try:
+        sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
+
+        # Obtener datos de la canción
+        track = sp.track(id_cancion)
+        datos = {
+            "id": track["id"],
+            "nombre": track["name"],
+            "duracion": track["duration_ms"],
+            "popularidad": track["popularity"],
+            "artista": ", ".join([artista["name"] for artista in track["artists"]]),
+        }
+        return datos
+    except Exception as e:
+        print(f"❌ Error al obtener datos desde Spotify: {e}")
+        return None
+# Convertir los datos en una línea estilo archivo
+def construirLineaCancion(datos):
+    return f"{datos['id']}|{datos['nombre']}|{datos['duracion']}|{datos['popularidad']}|{datos['artista']}|\n"

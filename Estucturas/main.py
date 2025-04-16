@@ -1,6 +1,6 @@
-from SpotifyAPI import getAccessToken, getPlayList
+from SpotifyAPI import getAccessToken, getPlayList, obtenerDatosDesdeSpotify, construirLineaCancion
 from Archivos import guardarCanciones, guardarArtistas
-from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio, ordenarPorPopularidad, artistaMasPopular
+from Analisis import artistaMasCanciones, promedioBytes, buscarCancionesArtista, mayorAlpromedio, ordenarPorPopularidad, artistaMasPopular, insertarCancionOrdenada
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
 client_id= "d6d0ada48ab5470b8751788ecf8624c8"
 client_secret="ac7a2ed9117241e7adb9ea2418b2371f"
@@ -57,3 +57,17 @@ ordenarPorPopularidad("artistas.txt",
     f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones")
 
 artistaMasPopular(archivo_artistas)
+
+id_usuario = input("🆔 Ingresa el ID de la canción a añadir: ")
+
+# Buscar datos reales en la API
+datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
+
+# Convertirlo a una línea
+if datos_cancion:
+    linea_cancion = construirLineaCancion(datos_cancion)
+    print(linea_cancion)
+    insertarCancionOrdenada("canciones_ordenadas.txt", linea_cancion, 4)
+else:
+    print("❌ No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
+
