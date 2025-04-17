@@ -1,5 +1,6 @@
 from analisis.Archivos import obtenerCampo
 
+#5. ¿Qué canciones tienen una duración superior al promedio de duración de todas las canciones en la playlist? D
 def promedioDuracion(nombre_archivo):
     total_duracion = 0
     total_canciones = 0
@@ -43,7 +44,7 @@ def mayorAlpromedio (nombre_archivo):
         print (f"No hay canciones con duración mayor al promedio")
     return cont 
 
-
+#4. ¿Cuántas operaciones de lectura son necesarias para encontrar todas las canciones de un artista específico?
 def buscarCancionesArtista(nombre_archivo, artista_buscado):
     try:
         with open(nombre_archivo, "r") as f:

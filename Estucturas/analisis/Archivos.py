@@ -1,4 +1,5 @@
 
+#3. ¿Cuál es el tamaño promedio (en bytes) de cada registro en tus archivos secuenciales?
 def promedioBytes(nombre_archivo):
     total_bytes = 0
     total_registros = 0

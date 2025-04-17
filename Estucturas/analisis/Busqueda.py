@@ -1,5 +1,7 @@
 
 from analisis.Archivos import obtenerCampo
+
+#8. ¿Cómo implementarías una búsqueda binaria en un archivo secuencial ordenado?
 def busquedaBinariaPorPopularidad(archivo, popularidad_buscada):
     encontrado = False
 
@@ -42,7 +44,6 @@ def busquedaBinariaPorPopularidad(archivo, popularidad_buscada):
 
 
 #9. Propón una estructura de archivos de índices para acelerar las búsquedas por artista sin perder el enfoque secuencial.
-
 def Indice(ruta_archivo):
     indice_artistas = {}
     canciones = []

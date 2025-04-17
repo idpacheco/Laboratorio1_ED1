@@ -1,6 +1,7 @@
 
 from analisis.Archivos import obtenerCampo
 
+#1. ¿Qué artista tiene mayor número de canciones en la playlist?
 def artistaMasCanciones(nombre_archivo):
     max_artista = None
     max_canciones = 0
@@ -27,6 +28,8 @@ def artistaMasCanciones(nombre_archivo):
     file.close()
     return max_artista, max_canciones
 
+
+#2. ¿Qué artista tiene mayor índice de popularidad?
 def artistaMasPopular(nombre_archivo):
     try:
         with open(nombre_archivo, "r") as f:

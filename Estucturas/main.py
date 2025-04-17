@@ -57,7 +57,7 @@ print(f"📊 El tamaño promedio de {archivo_artistas}  por registro es: {promed
 promedioArchivo2 =promedioBytes (archivo_canciones)
 print(f"📊 El tamaño promedio de {archivo_canciones} por registro es: {promedioArchivo2:.2f} bytes.")
 
-artista_buscado = "Niall Horan"
+artista_buscado = "Shakira" # Cambia esto por el artista que quieras buscar
 total = buscarCancionesArtista(archivo_canciones, artista_buscado)
 print(f"🎵 Total de canciones de '{artista_buscado}': {total}")
 
