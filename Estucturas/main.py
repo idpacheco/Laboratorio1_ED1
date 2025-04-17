@@ -2,7 +2,7 @@ from SpotifyAPI import getAccessToken, getPlayList, obtenerDatosDesdeSpotify, co
 from Archivos import guardarCanciones, guardarArtistas
 
 from analisis.Artistas import artistaMasCanciones, artistaMasPopular
-from analisis.Busqueda import busquedaBinariaPorPopularidad
+from analisis.Busqueda import Indice, buscarPorArtista, busquedaBinariaPorPopularidad
 from analisis.Canciones import promedioDuracion, mayorAlpromedio, buscarCancionesArtista
 from analisis.Archivos import promedioBytes, obtenerCampo
 from analisis.Ordenamiento import ordenarPorPopularidad, insertarCancionOrdenada
@@ -103,4 +103,15 @@ else:
 #Ejemplo de busqueda binaria por popularidad
 popu = int(input("Ingresa la popularidad de la canción a buscar: "))
 busquedaBinariaPorPopularidad(archivo_canciones_ordenadas, popu)
+
+indice, canciones= Indice(archivo_canciones_ordenadas) #devuelve tanto indice como canciones
+artista = input("🎤 Ingresa el nombre del artista a buscar: ")
+resultados = buscarPorArtista(artista, indice, canciones)
+
+if resultados:
+    print("\n🎵 Canciones encontradas:")
+    for cancion in resultados:
+        print(cancion)
+else:
+    print("❌ No se encontraron canciones para ese artista.")
 

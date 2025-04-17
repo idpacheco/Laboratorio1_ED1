@@ -39,3 +39,46 @@ def busquedaBinariaPorPopularidad(archivo, popularidad_buscada):
 
     if not encontrado:
         print("❌ No se encontró una canción con esa popularidad.")
+
+
+#9. Propón una estructura de archivos de índices para acelerar las búsquedas por artista sin perder el enfoque secuencial.
+
+def Indice(ruta_archivo):
+    indice_artistas = {}
+    canciones = []
+
+    with open(ruta_archivo, "r", encoding="utf-8") as file:
+        for _ in range(4):  # Saltar cabecera decorativa
+            next(file)
+
+        for linea in file:
+            try:
+                artistas = obtenerCampo(linea, 5).strip().split(", ")
+                for artista in artistas:
+                    if artista not in indice_artistas:
+                        indice_artistas[artista] = []
+                    indice_artistas[artista].append(linea)
+                canciones.append(linea)
+            except:
+                print("⚠️ Advertencia: no se pudo procesar esta línea.")
+
+    return indice_artistas, canciones
+
+def buscarPorArtista(nombre_artista, indice, canciones):
+    # Convertimos el nombre del artista a minúsculas para hacer la búsqueda insensible a mayúsculas
+    nombre_artista = nombre_artista.lower()
+    
+    if nombre_artista in indice:
+        return indice[nombre_artista]
+    else:
+        # Recorrer las canciones y buscar los artistas que contengan el nombre buscado
+        resultados = []
+        for cancion in canciones:
+            try:
+                artistas = obtenerCampo(cancion, 5).strip().lower().split(", ")
+                # Si el artista está en la lista de artistas de la canción, lo añadimos
+                if any(nombre_artista in artista for artista in artistas):
+                    resultados.append(cancion)
+            except:
+                print("⚠️ Advertencia: no se pudo procesar esta línea.")
+        return resultados
