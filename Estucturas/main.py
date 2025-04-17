@@ -2,6 +2,7 @@ from SpotifyAPI import getAccessToken, getPlayList, obtenerDatosDesdeSpotify, co
 from Archivos import guardarCanciones, guardarArtistas
 
 from analisis.Artistas import artistaMasCanciones, artistaMasPopular
+from analisis.Busqueda import busquedaBinariaPorPopularidad
 from analisis.Canciones import promedioDuracion, mayorAlpromedio, buscarCancionesArtista
 from analisis.Archivos import promedioBytes, obtenerCampo
 from analisis.Ordenamiento import ordenarPorPopularidad, insertarCancionOrdenada
@@ -80,11 +81,12 @@ ordenarPorPopularidad(
 )
 
 artistaMasPopular(archivo_artistas)
+"""
 id_usuario = input("🆔 Ingresa el ID de la canción a añadir: ")
 
 # Buscar datos reales en la API
 datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
-print("holis")
+
 if not os.path.exists(archivo_canciones_ordenadas):
     print(f"El archivo {archivo_canciones_ordenadas} no existe. Creándolo...")
     with open(archivo_canciones_ordenadas, 'w', encoding="ISO-8859-1") as archivo:
@@ -97,4 +99,8 @@ if datos_cancion:
     insertarCancionOrdenada(archivo_canciones_ordenadas, linea_cancion, 4)
 else:
     print("❌ No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
+"""
+#Ejemplo de busqueda binaria por popularidad
+popu = int(input("Ingresa la popularidad de la canción a buscar: "))
+busquedaBinariaPorPopularidad(archivo_canciones_ordenadas, popu)
 

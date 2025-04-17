@@ -1,25 +1,30 @@
 
 from analisis.Archivos import obtenerCampo
-def artistaMasCanciones (nombre_archivo):
-    max_artista =None
+
+def artistaMasCanciones(nombre_archivo):
+    max_artista = None
     max_canciones = 0
-    file = open (nombre_archivo, "r")
-    for _ in range(4):  # Saltar las primeras 4 líneas decorativas
-            next(file)
+    file = open(nombre_archivo, "r")
+
+    for _ in range(4):  # Saltar cabecera decorativa
+        next(file)
 
     for linea in file:
         if "|" in linea:
-            #lista o vector que contiene los fragmentos del texto que estaban separados con |
-            partes = linea.strip().split("|")  
-            #divide la linea eliminando los espacios y dividiendola en subcadenas
-            artista = partes [0].strip()
-            popularidad = partes[1].strip()
-            cantidad = int (partes [2].strip())
-            canciones = partes [3].strip()
-            if cantidad> max_canciones:
+            linea = linea.strip()
+
+            artista = obtenerCampo(linea, 1).strip()
+            popularidad = obtenerCampo(linea, 2).strip()
+            cantidad_str = obtenerCampo(linea, 3).strip()
+            canciones = obtenerCampo(linea, 4).strip()
+
+            cantidad = int(cantidad_str)
+
+            if cantidad > max_canciones:
                 max_canciones = cantidad
                 max_artista = artista
 
+    file.close()
     return max_artista, max_canciones
 
 def artistaMasPopular(nombre_archivo):

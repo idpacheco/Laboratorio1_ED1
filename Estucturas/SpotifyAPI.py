@@ -19,16 +19,33 @@ def getAccessToken(client_id: str, client_secret: str):
     except Exception as e:
         print(e)
 token = getAccessToken(client_id, client_secret)
+import requests
 
-def getPlayList(access_token: str, playlist_id):
-    try:
-        return requests.get(f"https://api.spotify.com/v1/playlists/{playlist_id}", 
-                            headers={"Authorization": f"Bearer {access_token}"}).json()
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return None
+def getPlayList(token, playlist_id):
+    url = f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
+    headers = {"Authorization": f"Bearer {token}"}
+    all_tracks = []
+    offset = 0
+    limit = 100  # Spotify API permite un máximo de 100 canciones por solicitud
 
-playlist = getPlayList(token, "1iFJnL9bCaSkDRMua0gMGY")
+    while True:
+        params = {"offset": offset, "limit": limit}
+        response = requests.get(url, headers=headers, params=params)
+        if response.status_code != 200:
+            print(f"Error al obtener la playlist: {response.status_code}")
+            break
+
+        data = response.json()
+        tracks = data.get("items", [])
+        all_tracks.extend(tracks)
+
+        # Verificar si hay más canciones
+        if len(tracks) < limit:
+            break
+
+        offset += limit
+
+    return {"tracks": {"items": all_tracks}}
 
 
 def obtenerDatosDesdeSpotify(id_cancion):

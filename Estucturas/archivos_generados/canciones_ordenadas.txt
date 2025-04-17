@@ -5,49 +5,76 @@ ID                     | Nombre                         | Duración (ms) | Popul
 3k3NWokhRRkEPhCzPmV8TW | Ojitos Lindos                  | 258298        | 85         | Bad Bunny, Bomba Estéreo
 1IHWl5LamUGEuP4ozKQSXZ | Tití Me Preguntó               | 243716        | 85         | Bad Bunny
 6DUdDIRgLqCGq1DwkNWQTN | Borro Cassette                 | 207306        | 85         | Maluma
+2a1o6ZejUi8U3wzzOtCOYw | Danza Kuduro                   | 198773        | 85         | Don Omar, Lucenzo
 2beS6dD5rovBxSA1zYoSHR | No Me Conoce - Remix           | 309120        | 84         | JHAYCO, J Balvin, Bad Bunny
 6Xom58OOXk2SoU711L2IXO | Moscow Mule                    | 245939        | 84         | Bad Bunny
 69Ej1xrGjOcHvIMtMKxK0G | Dile                           | 204600        | 84         | Don Omar
+6G4U9avyBNEfP0fAIduev3 | Ella Y Yo - Featuring Don Omar | 267786        | 84         | Aventura, Don Omar
 6ifUES3keWjwXgae8pXI3o | Me Rehúso                      | 205714        | 83         | Danny Ocean
 2tTmW7RDtMQtBk7m2rYeSw | Quevedo: Bzrp Music Sessions, Vol. 52 | 198937        | 83         | Bizarrap, Quevedo
 0JoHqmlqE0W0i9prt6kcHR | Cuatro Babys (feat. Trap Capos, Noriel, Bryant Myers & Juhn) | 278106        | 83         | Maluma, Trap Capos, Noriel, Bryant Myers, Juhn
 6Sq7ltF9Qa7SNFBsV5Cogx | Me Porto Bonito                | 178567        | 83         | Bad Bunny, Chencho Corleone
 7MmrcXVA7A5zZ2CbDuGHNa | A Mí                           | 209680        | 83         | Rels B
+1iEwyiSLAunPR6uouANE0O | El Perdedor                    | 206693        | 83         | Maluma
+5PycBIeabfvX3n9ILG7Vrv | Propuesta Indecente            | 235133        | 83         | Romeo Santos
 2CeKVsFFXG4QzA415QygGb | Feliz Cumpleaños Ferxxo        | 155960        | 82         | Feid
 1zsPaEkglFvxjAhrM8yhpr | Hey Mor                        | 196600        | 82         | Ozuna, Feid
+6mmPpaltUZK7xjNlBPQQ0p | Desesperados                   | 224996        | 82         | Rauw Alejandro, Chencho Corleone
+7LABrQFfRYcZUqUwng0Heb | Encantadora                    | 240093        | 82         | Yandel
+6I86RF3odBlcuZA9Vfjzeq | Eres Mía                       | 250640        | 82         | Romeo Santos
+0E0DRHf5PfMeor0ZCwB3oT | Otro Atardecer                 | 244444        | 82         | Bad Bunny, The Marías
 25ZAibhr3bdlMCLmubZDVt | QUE PRETENDES                  | 222346        | 81         | J Balvin, Bad Bunny
+35wvL50xvKpCHEJPxLOLPI | Si Estuviésemos Juntos         | 169247        | 81         | Bad Bunny
 5q2JbCNi4FcnglgPfxcV65 | Sola (Remix)                   | 307910        | 81         | Anuel AA, Daddy Yankee, Zion & Lennox, Farruko, Wisin
 6C1RD7YQVvt3YQj0CmuTeu | Diles                          | 286040        | 81         | Bad Bunny, Ozuna, Farruko, Arcángel, Ñengo Flow, DJ Luian, Mambo Kingz
-6mmPpaltUZK7xjNlBPQQ0p | Desesperados                   | 224996        | 81         | Rauw Alejandro, Chencho Corleone
 6yLqoieklk9gwabLaUDJ4s | Perdóname                      | 242390        | 81         | La Factoria, Eddy Lover
+69vlMrzHwATKzupwNcUPyK | La Santa                       | 206420        | 81         | Bad Bunny, Daddy Yankee
+4SJHHpKhcuXwDsCsPqshXj | El Efecto                      | 217142        | 81         | Rauw Alejandro, Chencho Corleone
 4nrPB8O7Y7wsOCJdgXkthe | Shakira: Bzrp Music Sessions, Vol. 53 | 214945        | 80         | Bizarrap, Shakira
 5YJ4BVvTFmVCxUyhKejHfR | Pa' Que Retozen                | 151666        | 80         | Tego Calderón
-35wvL50xvKpCHEJPxLOLPI | Si Estuviésemos Juntos         | 169247        | 80         | Bad Bunny
 5jt25aFjW2kNoBqaEVaz5W | LA INOCENTE                    | 202173        | 80         | Mora, Feid
 5hKjEpYrJIJs6uPl7zw6Y6 | No Te Hagas                    | 233250        | 80         | Jory Boy, Bad Bunny
 56f5qnyAlZdlz8wrUDA50h | Desconocidos                   | 204563        | 80         | Mau y Ricky, Manuel Turizo, Camilo
 3UI9I3e1g1y5T3SMfdgfGO | Colgando en tus manos (con Marta Sánchez) | 230280        | 80         | Carlos Baute, Marta Sánchez
 5BSclXJTa9B0iURhUjZo50 | La Tortura (feat. Alejandro Sanz) | 212893        | 80         | Shakira, Alejandro Sanz
+5gflgO9EPbIBf16n5TKnQS | Yo Voy (feat. Daddy Yankee)    | 232019        | 80         | Zion & Lennox
+5fwSHlTEWpluwOM0Sxnh5k | Pepas                          | 287120        | 80         | Farruko
+41oY4WCTj5kccfesTVFnvN | Tarot                          | 237894        | 80         | Bad Bunny, JHAYCO
+7hynhxDoDpgMIV12JuVtNa | UN PESO                        | 277106        | 80         | J Balvin, Bad Bunny, Marciano Cantero
 7DhYjNLksXZhbRQeheAums | Caraluna                       | 266160        | 79         | Bacilos
 4tQofG51E0juZBBVr6pral | Tuyo                           | 269714        | 79         | Mora
 3fjN3y5x4hN53rykAN2LHQ | cómo dormiste?                 | 112572        | 79         | Rels B
+2NMjggapJcXXM7WccGEBUO | Enséñame a Bailar              | 176000        | 79         | Bad Bunny
 0CYTGMBYkwUxrj1MWDLrC5 | CHORRITO PA LAS ANIMAS         | 168133        | 78         | Feid
 1sbNEFiURUYfy024cJX8JG | Ferxxo 100                     | 167760        | 78         | Feid
 4r9jkMEnArtWGH2rL2FZl0 | A Tu Merced                    | 175918        | 78         | Bad Bunny
+6Ges5C2IE738iJh4HyQizQ | Ay Vamos                       | 226413        | 78         | J Balvin
+2oJH69cuNyWpCmZyTmvrEN | Dutty Love                     | 285333        | 78         | Don Omar, NATTI NATASHA
 42k1KeBehAd83lrGt1okiC | Loca (feat. El Cata)           | 183693        | 77         | Shakira, El Cata
 0Gx4VrHzS7pZOEAGrmXXBH | La Bicicleta                   | 229509        | 77         | Carlos Vives, Shakira
 19CmuECYssqkPWANF4nLWM | Para No Verte Más              | 191560        | 77         | La Mosca
 5u5MvmVtitax9R1Mxh3reC | Dile Que Tu Me Quieres         | 226520        | 77         | Ozuna
 0JcNysfWVWaMS7R6vzGB2k | Robarte un Beso                | 194742        | 77         | Carlos Vives, Sebastian Yatra
+43NqTeL8pgBxKHPMiJKUP5 | Girl                           | 186426        | 77         | Myke Towers
+2q9udNV9NK0BL3q9p6TLxf | Procura                        | 271031        | 77         | ChiChi Peralta, Jandy Feliz
+3DKWF8is9hzp84aSxnhlag | Necio (feat. Carlos Santana)   | 264266        | 77         | Romeo Santos, Carlos Santana
+6bcdiJvYNX115yvbh3wASz | Cancioncitas de Amor           | 237093        | 77         | Romeo Santos
+1A9PKAFEHMWgXNLpgf7k4J | Piensan                        | 173451        | 77         | Myke Towers
 1j6xOGusnyXq3l6IryKF3G | Déjala Que Vuelva (feat. Manuel Turizo) | 220116        | 76         | Piso 21, Manuel Turizo
 4yVO0wOhXsZC1RuPgHP524 | Amigos Con Derechos            | 227480        | 76         | Reik, Maluma
 23WI5V2eD4EyGKxSl7Pyeq | Andas En Mi Cabeza             | 247493        | 76         | Chino & Nacho, Daddy Yankee
 2Jz1X6ZB0gkkCVgmeVGVGp | Na De Na                       | 202866        | 76         | Angel Y Khriz, Gocho "El Lápiz De Platino", John Eric
+2vmfvSoZBFAt9hhRoEByLi | Volví                          | 230125        | 76         | Aventura, Bad Bunny
+4Ft0391aLVNtCPPseh98lp | Traicionera                    | 229386        | 76         | Sebastian Yatra
 5fSDXbY8o9pA3TKwAbfwML | Mi Primer Millon               | 237386        | 75         | Bacilos
 614NVFo5csQqRnryl4jXs2 | El Telefono                    | 235626        | 75         | Héctor "El Father", Wisin & Yandel
 3AEZUABDXNtecAOSC1qTfo | Reggaetón Lento (Bailemos)     | 222560        | 75         | CNCO
 1q8NdCAQ9QUjpYiqzdd3mv | Atrévete-Te-Te                 | 239306        | 75         | Calle 13
 1WbXIpiGBJkCiv3hn40iPB | Sobredosis (feat. Ozuna)       | 198332        | 75         | Romeo Santos, Ozuna
+4u5xLMRN0dgKBFFN8FiNgv | Niña Bonita                    | 216786        | 75         | Chino & Nacho
+2DAULesb1U4Qz4FSTZpEUJ | Por Fin Te Encontré            | 250836        | 75         | Cali Y El Dandee, Juan Magán, Sebastian Yatra
+2hLXUbsOU9cDb9RFva9FYr | MEMORIAS                       | 228750        | 75         | Mora, JHAYCO
+0wihfILRNOwE2156Shezc8 | Agosto                         | 139041        | 75         | Bad Bunny
 3PpWCS95gDUDRPko3u1MZ9 | Prohibidox                     | 166253        | 74         | Feid
 0NO2zL0kw8sGGnaMvHKAZF | Marisola - Remix               | 237473        | 74         | Cris Mj, Duki, Nicki Nicole, Standly, Stars Music Chile
 3QwBODjSEzelZyVjxPOHdq | Otra vez (feat. J Balvin)      | 209453        | 74         | Zion & Lennox, J Balvin
@@ -55,50 +82,135 @@ ID                     | Nombre                         | Duración (ms) | Popul
 4ggiDYAkJ7Yk8d5xOr7Xjo | Me Niego (feat. Ozuna & Wisin) | 221653        | 74         | Reik, Ozuna, Wisin
 5qFeMRz4TvetPmzjre9Dq7 | No Es Justo                    | 250840        | 74         | J Balvin, Zion & Lennox
 7dSZ6zGTQx66c2GF91xCrb | PROVENZA                       | 210200        | 74         | KAROL G
+2WHctubxf8LzrGr62cLz3d | Igual Que Ayer                 | 232560        | 74         | R.K.M & Ken-Y
+1MfqPCs3Y722VK6zkWZ98Z | Pasarela                       | 227466        | 74         | Ñejo & Dalmata
+2ctjDCCg1wHoQSjIJ8p6U4 | Candy                          | 207626        | 74         | Plan B
+2Q85xwXagilpHKTfdrbC7M | La Rompe Corazones             | 204520        | 74         | Daddy Yankee, Ozuna
+3XB5uhhlYSnkxpSihkNQwh | QLONA                          | 172797        | 74         | KAROL G, Peso Pluma
 2WrqTrNIHqfcMCgmEo0A7E | FRIKI                          | 145120        | 73         | Feid, KAROL G
 4TFNKnMWjcMWzpkSwQrrcu | Le Pido a DIOS                 | 165880        | 73         | Feid, DJ Premier
 4FAKtPVycI4DxoOHC01YqD | Yandel 150                     | 216148        | 73         | Yandel, Feid
 45jM2fuCq0NHD9p7xn0ptd | ¿Cual Es Tu Plan?              | 243700        | 73         | Bad Bunny, Ñejo, Pj Sin Suela, DJ Nelson
+3JHpk0DOTOzyh0777JFAky | Diosa                          | 214013        | 73         | Myke Towers
 0uRHot8ml8U8cYVwwzMwNT | Corazon De Seda (feat. Ozuna)  | 186976        | 73         | Klasico, Ozuna
 3IyPnNX142pvWx6D5CiimD | Amantes                        | 235424        | 73         | Greeicy, Mike Bahía
 0VKkyBKCXyR99navhVRqcP | La player (Bandolera)          | 249608        | 73         | Zion & Lennox
 6D2TCm4nf5nxAcdGJ7w3QP | Qué Más Pues?                  | 217360        | 73         | J Balvin, Maria Becerra
+4gzsuuZypVbxs0Af1LSZyB | Lo Siento BB:/ (with Bad Bunny & Julieta Venegas) | 207301        | 73         | Tainy, Bad Bunny, Julieta Venegas
+4ojwGTehgBRAg52jbFgzJg | Me Reclama                     | 187492        | 73         | Mambo Kingz, DJ Luian, Luigi 21 Plus, Ozuna
+0ERbK7qVqveCaBWIiYCrl3 | Bella y Sensual                | 204700        | 73         | Romeo Santos, Daddy Yankee, Nicky Jam
+4EbAftNM732UGLF8gmIIsX | Mi Santa (feat. Tomatito)      | 231226        | 73         | Romeo Santos, Tomatito
+1nAk42YH4kmPxaoFcLgiSe | Mi Cama Huele a Ti (feat. Zion & Lennox) | 225573        | 73         | Tito "El Bambino", Zion, Lennox
 2zLLGT8WWT1dl73TlVL9qs | Mariposa Traicionera - 2020 Remasterizado | 262925        | 72         | Maná
 6oyl7ELfrMqXLhGmIjXY9R | Lovumba                        | 218413        | 72         | Daddy Yankee
-3JHpk0DOTOzyh0777JFAky | Diosa                          | 214013        | 72         | Myke Towers
 5ZFpEsxK5VlLkJi3v7ar2Y | Fanática Sensual               | 240320        | 72         | Plan B
 3YT1coaqAGWLRBIBJOu8AN | En Su Nota                     | 219333        | 72         | Don Omar, Mackie Ranks
 1Hu8EMKCGD25srDybGOtBC | Soy una Gargola                | 184737        | 72         | Alex Gargolas, Randy
+6t94PGXYAuo9GbJEnMpPcW | La Forma en Que Me Miras       | 307435        | 72         | Super Yei, Sammy Baby, Myke Towers, Lenny Tavárez, Rafa Pabön
+2oiixB9QMIzhWaHGVlQx4g | Yandel 150                     | 216148        | 72         | Yandel, Feid
+4eDjNcAyIuJFhQ31Fvvoc1 | Sexo, Sudor y Calor            | 250226        | 72         | J Alvarez, Ñejo & Dalmata
+1ri9ZUkBJVFUdgwzCnfcYs | MAMIII                         | 226088        | 72         | Becky G, KAROL G
+3yEtuhGR8jOtusa29jWrhG | Tu Amor Me Hace Bien - Salsa Version | 300160        | 72         | Marc Anthony
+4l3xGFwoTinvYxsePytOOf | Báilame - Remix                | 217093        | 72         | Nacho, Yandel, Bad Bunny, Mambo Kingz, DJ Luian
+4YFoQUkj0XXJgTiHp8d61y | Quizas - Remix                 | 240200        | 72         | Tony Dize, Ken-Y, Marioso
+5jf0PmPCHefQ78uAzqIqbj | Una Lady Como Tú               | 213026        | 72         | Manuel Turizo
+74wEiOpnvCe1tCTWKGSYta | Cuando Te Besé                 | 256519        | 72         | Becky G, Paulo Londra
+2kP6fOqdSQ5CYqVH5z5844 | Te Encontre                    | 209960        | 72         | El Vega
 1AddbBdKFz8wdqatGVSsYS | Es Un Secreto                  | 192053        | 71         | Plan B
 2mnXxnrX5vCGolNkaFvVeM | La Jumpa                       | 255693        | 71         | Arcángel, Bad Bunny
 6VAS7m73rDopQe7BdrFMpD | Tiago PZK: Bzrp Music Sessions, Vol. 48 | 160000        | 71         | Bizarrap, Tiago PZK
 5hEM0JchdVzQ5PwvSfITeX | Me Llamas (feat. Maluma) - Remix | 210322        | 71         | Piso 21, Maluma
 5kqNIqFjijuzvVLhuY9B8j | La Zona                        | 136892        | 71         | Bad Bunny
 041Kcvnw8nOdq8xiRibPTG | Destino                        | 180480        | 71         | Greeicy, Nacho
+1Ej96GIBCTvgH7tNX1r3qr | Otro Trago                     | 225933        | 71         | Sech, Darell
+29ShXDWDedEwZkYc8Du08N | Imaginate                      | 225013        | 71         | Rich Music LTD, Sech, Dalex, Justin Quiles, Lenny Tavárez, Feid, Cazzu
+3yHJs5NmQk2ROAWCfjniXV | Sin Contrato                   | 221053        | 71         | Maluma
+6YYmoV9YbBefsspGmqFHbs | Una Vaina Loca                 | 188894        | 71         | Fuego
+0J9g1MMJDhyvOb3NWckHMm | Chulo pt.2                     | 219333        | 71         | Bad Gyal, Tokischa, Young Miko
+3J6vrRMz6EfwH2sgYiyNhc | Oye Mi Canto                   | 240973        | 71         | N.O.R.E., Daddy Yankee, Nina Sky, Gemstar, Big Mato
 1ga4PztXOIw1yBbdUt2X8v | GATÚBELA                       | 209160        | 70         | KAROL G, Maldy
 6wtZPYBIXUvCpXwVjMCJBf | ULTRA SOLO REMIX               | 322347        | 70         | Polimá Westcoast, Feid, Pailita, Paloma Mami, De La Ghetto
 4srcMdbm2qzVG98tJajHxp | Pantysito                      | 240413        | 70         | Alejo, Feid, ROBI
 5jZ32WOU7sqzDYbzINwMUk | SORRY PAPI                     | 163053        | 70         | Bad Bunny, ABRA
-1Ej96GIBCTvgH7tNX1r3qr | Otro Trago                     | 225933        | 70         | Sech, Darell
+3FkeNbs9Zeiqkr3WkbOiGp | Envolver                       | 193805        | 70         | Anitta
+5mg6sU732O35VMfCYk3lmX | Ven Devórame Otra Vez          | 314013        | 70         | Lalo Rodriguez
+704LUEih663hiE3CnyUrFW | SEJODIOTO                      | 181106        | 70         | KAROL G
+1jD48pmiHMSVHHPzKLi4P3 | Tu Eres Ajena                  | 293106        | 70         | Eddy Herrera
+4gJfPoMIcSDGY0tMGxm6Fu | OKI DOKI                       | 143789        | 70         | KAROL G
+3mFNc5EQn30irR983Wg9OD | KÁRMIKA                        | 236586        | 70         | KAROL G, Bad Gyal, Sean Paul
 3pm4XtcsRIFFtH2UErk62R | CANCIÓN CON YANDEL             | 209180        | 69         | Yandel, Bad Bunny
 48AJSd42lXpicsGqcgopof | X ÚLTIMA VEZ                   | 192477        | 69         | Daddy Yankee, Bad Bunny
-3FkeNbs9Zeiqkr3WkbOiGp | Envolver                       | 193805        | 69         | Anitta
 4yN6xPLopmTLvc27pO9LIE | Si Tú La Ves (feat. Wisin)     | 221026        | 69         | Nicky Jam, Wisin
 62vDrkBEyJYEOFj1ScBqM7 | Sin Pijama                     | 190160        | 69         | Becky G, NATTI NATASHA
+0lTYnxJdC68v0oXd5xolxY | SUTRA                          | 203400        | 69         | Sebastian Yatra, Dalmata
+4aEOz6ZpXh3wF4FOdJHOPV | Escápate Conmigo - Remix       | 167418        | 69         | Wolfine, Ñejo
+2C6eINAA8cO6e5a8PjnWsK | AMOR DE MI VIDA                | 189613        | 69         | Feid
+36FTXlmbiV2diZdZukzLDm | BUBALU                         | 228253        | 69         | Feid, Rema
 387Dc03iCK2iZ6PBHU1Vb5 | Sobrio                         | 201180        | 68         | Maluma
 7d05Cx72W1WsWUw7MAD7ia | Shorty                         | 246080        | 68         | Casa De Leones
+1pWYnQIlqxTh5bxuPmTG4E | Desde Esa Noche (feat. Maluma) | 227693        | 68         | Thalia, Maluma
+3kUq4sBcmxhnOtNysZ9yrp | Feliz Cumpleaños Ferxxo        | 156400        | 68         | Feid
+5WVZfMIrS6hbvwG8hpRHCR | Me Pones en Tensión            | 234880        | 68         | The Noise, Zion & Lennox
+1B4XhExXA4NswSQPetDuEg | Arbol Sin Hojas                | 199863        | 68         | Dread Mar I
+51CGbL9BAw1896waeHoR9w | X19X                           | 161106        | 68         | Feid
+6k5wiT5l9DK8iZmhvEvoqo | Corazón Roto - Remix           | 275040        | 68         | Brray, JHAYCO, Ryan Castro
+55DfugJIh1351fCiwO2we2 | La Tormenta De Arena           | 368360        | 67         | Dorian
+18DmZ510OB9XATcFbQ8vDZ | Mi Vecinita                    | 182293        | 67         | Plan B
+4YW2Fr25fHwUt6qgvM1iE1 | Nota de Amor (feat. Daddy Yankee) | 232373        | 67         | Wisin, Carlos Vives, Daddy Yankee
 6WbAhuwE6fCOriBu5786X1 | CAIRO                          | 201280        | 66         | KAROL G, Ovy On The Drums
 00C97lUG7Y0TY0KLv7p32h | Sábado Rebelde                 | 240266        | 66         | Daddy Yankee, Plan B
+0LKu09Iq053CEUZ5ktQEWc | Mojando Asientos (feat. Feid)  | 252162        | 66         | Maluma, Feid
+2sH1DIngiSA8EQfkcQXpBq | La Melodía                     | 219103        | 66         | Joey Montana
+4vhkI8x68EaGQR3Kn7Pwhc | Esta Noche                     | 168520        | 66         | Mike Bahía, Greeicy
+1ndlOUUT3Eq1SDCSdKJASw | Miss Lonely - Dimelo Flow Remix | 240365        | 66         | Sech, Justin Quiles, De La Ghetto, Dímelo Flow
+0S4w5ZBEbxYxiygvz9wWdK | Belixe                         | 155533        | 65         | Feid
 7mHFWWfVlhqGjeIQ5qt9i2 | Perderme Contigo               | 246387        | 65         | Bacilos
-0S4w5ZBEbxYxiygvz9wWdK | Belixe                         | 155533        | 64         | Feid
+6q8Lb50EtqNeeJXXe8mMAH | Culpables                      | 226626        | 65         | KAROL G, Anuel AA
 77VXEopCatM9pqJl0beeCj | Tu Angelito                    | 237680        | 64         | Chino & Nacho
+5GChYjT0HJVDtJMjcfhYmS | La Pregunta                    | 269591        | 64         | J Alvarez
+6qtDKAKZhJfVziibsoGBBj | SI TÚ SUPIERAS                 | 196373        | 64         | Feid
+1NpD7cQH8hGMZrufOQQ0Xk | Chora, Me Liga - Ao Vivo       | 181146        | 64         | João Bosco & Vinicius
+6Pw74Nz0wZvGQIu3ccRUeX | AfroLOVA'                      | 140769        | 64         | Rels B
+1ZYxQo0ZDNjye7ygHWJHle | Casi un Hechizo                | 224440        | 63         | Jerry Rivera
+1A7rUacip28yYERtzuQZ55 | CORONE                         | 162720        | 63         | Feid
+5fhcuVxuBWfgNXGuyAtLmr | Los Cachos                     | 212304        | 62         | Piso 21, Manuel Turizo
+30Xh83fw03PZ2Wfm36H4EZ | Lady Mi Amor                   | 147066        | 62         | Feid
+0gzcET27nREY6aD8LJU9wD | Noche Loca                     | 178291        | 62         | Marama, Rombai
+6HNsJQihjxODgGWQafAJau | Bonita                         | 237335        | 62         | Cabas
+1juHIWqgFiDFAKuEBP24Lt | Sirena                         | 205791        | 61         | Cali Y El Dandee
+2yjHvbMtfyoXXJYpsR3rYP | Motor Y Motivo                 | 196989        | 61         | Grupo 5
+5ak67nfN54lbm0ophfLj2t | Un Rodeoooo                    | 136082        | 61         | Rels B
+1EoaN82FtXfHvKWxITkr8S | Cásate Conmigo                 | 209032        | 60         | Silvestre Dangond, Nicky Jam
+0H7cz1bR7w9PulJL7Na774 | Vivo Pensando En Ti (feat. Maluma) | 232306        | 60         | Felipe Peláez, Maluma
+2UU1XiId16k6Bz1g8M9hnC | El Clavo (feat. Maluma) - Remix | 172159        | 60         | Prince Royce, Maluma
+5981zpjMYeKGoEQ6K9794L | Si Tú Me Besas                 | 259853        | 60         | Víctor Manuelle
 4ilZV1WNjL7IxwE81OnaRY | Gatita                         | 153062        | 59         | Bellakath
-1EoaN82FtXfHvKWxITkr8S | Cásate Conmigo                 | 209032        | 59         | Silvestre Dangond, Nicky Jam
-33a2zTGZocgU9XVDDILHM3 | La Despedida                   | 202826        | 49         | Daddy Yankee
-7fGODUqa0gtkb72oBVCgCD | Ella Me Levanto                | 209493        | 49         | Daddy Yankee
-5clFSlfkCRlhnH1cAQjSBi | Sensacion Del Bloque           | 182186        | 40         | De La Ghetto, Randy
-58cEG7FsVoipRiRKUMgOjo | PUNTO 40                       | 190654        | 9          | Rauw Alejandro, Baby Rasta
+2GZmcIwvFeu3NgKu1HJL4u | 14 De Febrero                  | 158413        | 59         | Feid
+52ZI5nsIiC5Zh6z5ufTYAK | 8 DIAX                         | 141333        | 58         | Feid
+27GZ01uEeZvG7esdoed3pQ | Mala y Peligrosa (feat. Bad Bunny) | 264200        | 58         | Víctor Manuelle, Bad Bunny
+7gL0eIncXB5ELO8BFMR3Uv | Vivir Bailando                 | 214413        | 51         | Silvestre Dangond, Maluma
+1azNmWAecfKNw0efhKkzNM | Historia entre tus dedos       | 307336        | 51         | Los 4
+2Krs8LAj7db4WpMX0HWwDZ | A Punto De Estallar            | 316026        | 50         | N'Klabe
+2jnZUvhw2LTvDI6YidRVcO | Llamado de Emergencia          | 239920        | 49         | Daddy Yankee
+4qh8a3jw7fvgYaX3HtwSHq | El Doctorado feat. Don Omar & Ken-Y | 264146        | 49         | Tony Dize, Don Omar, Ken-Y
+33a2zTGZocgU9XVDDILHM3 | La Despedida                   | 202826        | 48         | Daddy Yankee
+7fGODUqa0gtkb72oBVCgCD | Ella Me Levanto                | 209493        | 48         | Daddy Yankee
+0f0EV02n2JdUFFoKU1jUPq | 911                            | 222546        | 48         | Feid, Nacho
+2snwj1VCe55PMcOt73GIaQ | Deseo Animal                   | 246830        | 48         | Dalmata
+5jJTqI5yteOyLWoDTjiHCO | Yo No Se Manana - Salsa Version | 261880        | 43         | Luis Enrique
+0BmrmBTd5NlVhVMLGW0PaG | Morena                         | 200466        | 40         | Feid
+5clFSlfkCRlhnH1cAQjSBi | Sensacion Del Bloque           | 182186        | 39         | De La Ghetto, Randy
+2uvU0z0Asg969AiNLDIowC | Hora Loca Remix - Spotify Singles (with Piso 21) | 194755        | 36         | The Change, Piso 21
+58cEG7FsVoipRiRKUMgOjo | PUNTO 40                       | 190654        | 8          | Rauw Alejandro, Baby Rasta
+4eMKD8MRroxCqugpsxCCNb | MOJABI GHOST                   | 232131        | 8          | Tainy, Bad Bunny
 7mY1dIaY9vY6Jrlrjg3dRn | Quiero Bailar                  | 186506        | 4          | Ivy Queen
 5Uel5PmPBZICA0TQTI912U | Ay Mi Dios                     | 252003        | 2          | IAmChino, Pitbull, Yandel, El Chacal
 33cF8aTmGJ6TsEf23uqGIN | LOKERA                         | 197101        | 1          | Rauw Alejandro, Lyanno, Brray
+6nAlJuLlRlpAcq30xIqKJs | ¿Por Que Te Demoras?           | 190512        | 1          | Plan B
 4EL4EiucCwiYAWcptXnToW | Dame Tu Amor                   | 147908        | 0          | aleXaa
+5sIdojLOextkMceP5bt9Gc | Aparentemente                  | 303640        | 0          | Yaga & Mackie, Arcángel, De La Ghetto
+2RFDO2apMKOOytAWsNHmyH | Estar Enamorado                | 220734        | 0          | Golpe a Golpe
+4sUvL7D0XXsxWxHsIB3Cmj | Como Yo Le Doy                 | 221768        | 0          | Don Miguelo
+3mra5ShNolELD0KNrMQo9D | A Dormir Juntitos - Liz featuring Eddy Herrera | 282706        | 0          | Eddy Herrera
+1ljnwB1bv0sXnUKrmx10Qy | Mirame                         | 212533        | 0          | Daddy Yankee
+679sVn8IvjSfGJuKTIK6hP | Me gustas tu                   | 239986        | 0          | Manu Chao
