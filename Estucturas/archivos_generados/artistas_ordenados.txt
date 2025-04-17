@@ -2,32 +2,108 @@
 
 Artista                        | Popularidad  | # Canciones  | Canciones
 ----------------------------------------------------------------------------------------------------
-Taylor Swift                   | 98           | 12           | 1fzAuUVbzlhZ1lJAx9PtY6, 4y5bvROuBDPr5fuwXbIBZR, 77sMIMlNaSURUAXq5coCxE, 7G0gBu6nLdhFDPRLc0HdDG, 7eQj6r5PIdYKEIZjucBMcq, 550erGcdD9n6PnwxrvYqZT, 1msEuwSBneBKpVCZQcFTsU, 2YWtcWi3a83pdEg3Gif4Pd, 6pYNq0ZwpPVazKzsqpf0G8, 0wavGRldH0AWyu2zvTz8zb, 1LLXZFeAHK9R4xUramtUKw, 22bPsP2jCgbLUvh82U0Z3M
-Ariana Grande                  | 95           | 2            | 7Dx9Z6Aon1qPS2N0rHSWTe, 2tQew7pG4IhgNGplOSNIj7
-Bruno Mars                     | 95           | 1            | 7BqBn9nzAq8spo5e7cZ0dJ
-Peso Pluma                     | 92           | 1            | 6XaJfhwof7qIgbbXO5tIQI
-Tyler, The Creator             | 91           | 3            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 3jHdKaLCkuNEkWcLVmQPCX
-Gracie Abrams                  | 89           | 1            | 5meVa5klVlJalupZTvv5XX
-Shakira                        | 89           | 1            | 5JwZwNT0SyOZlErdpvdEg3
-Maroon 5                       | 87           | 1            | 5qII2n90lVdPDcgXEEVHNy
-Kali Uchis                     | 86           | 4            | 1otG6j1WHNvl9WgXLWkHTo, 7KA4W4McWYRpgf0fWsJZWB, 6XaJfhwof7qIgbbXO5tIQI, 2kSb3wYSOV996xA2NSmpck
-The Beatles                    | 86           | 1            | 6dGnYIeXmHdcikdzNNDMm2
-Daniel Caesar                  | 86           | 1            | 736PP5LTtREkDgktNmX3Gu
-Harry Styles                   | 84           | 7            | 1qEmFfgcLObUfQm0j1W2CK, 51Zw1cKDgkad0CXv23HCMU, 69w5X6uTrOaWM32IetSzvO, 5IhzJOXNE7ki0IIJbZbnGq, 3jjujdWJ72nww5eGnfs2E7, 6iYMfxznTBlcVOgRHab2W0, 2IOFZdYYkFxEHVz1w34PoL
-Shawn Mendes                   | 84           | 1            | 5ld8E3DVBXCCWQ54yrkWVp
-The Lumineers                  | 80           | 1            | 5NORWMFC27ywGSZxi8uquP
-Earth, Wind & Fire             | 76           | 1            | 2grjqo0Frpf2okIBiifQKs
-Niall Horan                    | 75           | 2            | 5FQ77Cl1ndljtwwImdtjMy, 0DXmK0QaBycr8MpM52Kaeo
-Hotel Ugly                     | 74           | 1            | 3hxIUxnT27p5WcmjGUXNwx
-Manuel Medrano                 | 70           | 1            | 5lLArVpMg2z8l3qggp7zmD
-Bootsy Collins                 | 68           | 1            | 1otG6j1WHNvl9WgXLWkHTo
-BØRNS                          | 68           | 1            | 7HwoUfASF7xwt4vFEhkQF3
-MAX                            | 66           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
-IV Of Spades                   | 66           | 2            | 3Eb5sztvEMa0Mqnb8DUAlU, 39SQ0CjIineoa2mbiJpZdk
-Dayglow                        | 65           | 2            | 64lsIF5pw0sJY0gV5kz0RN, 0AsUVUloJ52ZCXmqrMFgOI
-SUGA                           | 63           | 1            | 6sI8Q7TTJeA9exw6hxEqq3
-THE DRIVER ERA                 | 61           | 2            | 2PYSA0e7vCpXqN2iPHTXTN, 2KKBlK4IZUdjlJ7F0WGzU6
-Wabie                          | 55           | 1            | 7rC3P7tpWriaC4hYWKwGQd
-hannah bahng                   | 50           | 1            | 0b5EKv77RtqF8JU64u1Q1Y
-Kids That Fly                  | 50           | 1            | 6aBh6vT0UV14DneyyNorR2
-Lina de Sol                    | 20           | 1            | 29FRWNC4lPdoyltN1mQ9oF
+Bad Bunny                      | 100          | 17           | 3k3NWokhRRkEPhCzPmV8TW, 2beS6dD5rovBxSA1zYoSHR, 2mnXxnrX5vCGolNkaFvVeM, 3pm4XtcsRIFFtH2UErk62R, 25ZAibhr3bdlMCLmubZDVt, 35wvL50xvKpCHEJPxLOLPI, 45jM2fuCq0NHD9p7xn0ptd, 6Xom58OOXk2SoU711L2IXO, 1IHWl5LamUGEuP4ozKQSXZ, 4r9jkMEnArtWGH2rL2FZl0, 48AJSd42lXpicsGqcgopof, 5kqNIqFjijuzvVLhuY9B8j, 4j4w4CXm6BSr0s25wAWrrX, 5jZ32WOU7sqzDYbzINwMUk, 6Sq7ltF9Qa7SNFBsV5Cogx, 6C1RD7YQVvt3YQj0CmuTeu, 5hKjEpYrJIJs6uPl7zw6Y6
+Rauw Alejandro                 | 91           | 3            | 58cEG7FsVoipRiRKUMgOjo, 33cF8aTmGJ6TsEf23uqGIN, 6mmPpaltUZK7xjNlBPQQ0p
+Feid                           | 90           | 12           | 2WrqTrNIHqfcMCgmEo0A7E, 0CYTGMBYkwUxrj1MWDLrC5, 4TFNKnMWjcMWzpkSwQrrcu, 2CeKVsFFXG4QzA415QygGb, 0S4w5ZBEbxYxiygvz9wWdK, 3PpWCS95gDUDRPko3u1MZ9, 1sbNEFiURUYfy024cJX8JG, 5jt25aFjW2kNoBqaEVaz5W, 4FAKtPVycI4DxoOHC01YqD, 6wtZPYBIXUvCpXwVjMCJBf, 1zsPaEkglFvxjAhrM8yhpr, 4srcMdbm2qzVG98tJajHxp
+J Balvin                       | 89           | 5            | 2beS6dD5rovBxSA1zYoSHR, 25ZAibhr3bdlMCLmubZDVt, 3QwBODjSEzelZyVjxPOHdq, 5qFeMRz4TvetPmzjre9Dq7, 6D2TCm4nf5nxAcdGJ7w3QP
+Shakira                        | 89           | 4            | 4nrPB8O7Y7wsOCJdgXkthe, 42k1KeBehAd83lrGt1okiC, 0Gx4VrHzS7pZOEAGrmXXBH, 5BSclXJTa9B0iURhUjZo50
+KAROL G                        | 89           | 4            | 6WbAhuwE6fCOriBu5786X1, 2WrqTrNIHqfcMCgmEo0A7E, 1ga4PztXOIw1yBbdUt2X8v, 7dSZ6zGTQx66c2GF91xCrb
+Anuel AA                       | 89           | 1            | 5q2JbCNi4FcnglgPfxcV65
+Myke Towers                    | 89           | 1            | 3JHpk0DOTOzyh0777JFAky
+Ozuna                          | 88           | 6            | 1zsPaEkglFvxjAhrM8yhpr, 6C1RD7YQVvt3YQj0CmuTeu, 5u5MvmVtitax9R1Mxh3reC, 4ggiDYAkJ7Yk8d5xOr7Xjo, 0uRHot8ml8U8cYVwwzMwNT, 1WbXIpiGBJkCiv3hn40iPB
+Daddy Yankee                   | 87           | 7            | 33a2zTGZocgU9XVDDILHM3, 6oyl7ELfrMqXLhGmIjXY9R, 00C97lUG7Y0TY0KLv7p32h, 5q2JbCNi4FcnglgPfxcV65, 48AJSd42lXpicsGqcgopof, 23WI5V2eD4EyGKxSl7Pyeq, 7fGODUqa0gtkb72oBVCgCD
+Maluma                         | 87           | 5            | 387Dc03iCK2iZ6PBHU1Vb5, 5hEM0JchdVzQ5PwvSfITeX, 0JoHqmlqE0W0i9prt6kcHR, 4yVO0wOhXsZC1RuPgHP524, 6DUdDIRgLqCGq1DwkNWQTN
+Pitbull                        | 87           | 1            | 5Uel5PmPBZICA0TQTI912U
+Ovy On The Drums               | 85           | 1            | 6WbAhuwE6fCOriBu5786X1
+Cris Mj                        | 85           | 1            | 0NO2zL0kw8sGGnaMvHKAZF
+Don Omar                       | 85           | 2            | 69Ej1xrGjOcHvIMtMKxK0G, 3YT1coaqAGWLRBIBJOu8AN
+Romeo Santos                   | 85           | 1            | 1WbXIpiGBJkCiv3hn40iPB
+Arcángel                       | 84           | 2            | 2mnXxnrX5vCGolNkaFvVeM, 6C1RD7YQVvt3YQj0CmuTeu
+Quevedo                        | 84           | 1            | 2tTmW7RDtMQtBk7m2rYeSw
+Duki                           | 84           | 1            | 0NO2zL0kw8sGGnaMvHKAZF
+Farruko                        | 84           | 2            | 5q2JbCNi4FcnglgPfxcV65, 6C1RD7YQVvt3YQj0CmuTeu
+Bryant Myers                   | 84           | 1            | 0JoHqmlqE0W0i9prt6kcHR
+JHAYCO                         | 83           | 1            | 2beS6dD5rovBxSA1zYoSHR
+Manuel Turizo                  | 83           | 2            | 1j6xOGusnyXq3l6IryKF3G, 56f5qnyAlZdlz8wrUDA50h
+Rels B                         | 83           | 2            | 3fjN3y5x4hN53rykAN2LHQ, 7MmrcXVA7A5zZ2CbDuGHNa
+Camilo                         | 83           | 1            | 56f5qnyAlZdlz8wrUDA50h
+Nicky Jam                      | 83           | 2            | 1EoaN82FtXfHvKWxITkr8S, 4yN6xPLopmTLvc27pO9LIE
+Anitta                         | 83           | 1            | 3FkeNbs9Zeiqkr3WkbOiGp
+Danny Ocean                    | 82           | 1            | 6ifUES3keWjwXgae8pXI3o
+Wisin & Yandel                 | 82           | 1            | 614NVFo5csQqRnryl4jXs2
+Bizarrap                       | 81           | 3            | 4nrPB8O7Y7wsOCJdgXkthe, 2tTmW7RDtMQtBk7m2rYeSw, 6VAS7m73rDopQe7BdrFMpD
+Mora                           | 81           | 2            | 4tQofG51E0juZBBVr6pral, 5jt25aFjW2kNoBqaEVaz5W
+Ñengo Flow                     | 81           | 1            | 6C1RD7YQVvt3YQj0CmuTeu
+Sebastian Yatra                | 81           | 1            | 0JcNysfWVWaMS7R6vzGB2k
+Sech                           | 81           | 1            | 1Ej96GIBCTvgH7tNX1r3qr
+Plan B                         | 80           | 3            | 1AddbBdKFz8wdqatGVSsYS, 00C97lUG7Y0TY0KLv7p32h, 5ZFpEsxK5VlLkJi3v7ar2Y
+Maná                           | 79           | 1            | 2zLLGT8WWT1dl73TlVL9qs
+De La Ghetto                   | 79           | 2            | 5clFSlfkCRlhnH1cAQjSBi, 6wtZPYBIXUvCpXwVjMCJBf
+Yandel                         | 79           | 3            | 3pm4XtcsRIFFtH2UErk62R, 4FAKtPVycI4DxoOHC01YqD, 5Uel5PmPBZICA0TQTI912U
+Noriel                         | 79           | 1            | 0JoHqmlqE0W0i9prt6kcHR
+Maria Becerra                  | 79           | 1            | 6D2TCm4nf5nxAcdGJ7w3QP
+Alejandro Sanz                 | 79           | 1            | 5BSclXJTa9B0iURhUjZo50
+Nicki Nicole                   | 78           | 1            | 0NO2zL0kw8sGGnaMvHKAZF
+Tiago PZK                      | 78           | 1            | 6VAS7m73rDopQe7BdrFMpD
+Chencho Corleone               | 78           | 2            | 6Sq7ltF9Qa7SNFBsV5Cogx, 6mmPpaltUZK7xjNlBPQQ0p
+Reik                           | 78           | 2            | 4ggiDYAkJ7Yk8d5xOr7Xjo, 4yVO0wOhXsZC1RuPgHP524
+Zion & Lennox                  | 77           | 4            | 5q2JbCNi4FcnglgPfxcV65, 3QwBODjSEzelZyVjxPOHdq, 5qFeMRz4TvetPmzjre9Dq7, 0VKkyBKCXyR99navhVRqcP
+Wisin                          | 77           | 3            | 5q2JbCNi4FcnglgPfxcV65, 4ggiDYAkJ7Yk8d5xOr7Xjo, 4yN6xPLopmTLvc27pO9LIE
+DJ Luian                       | 77           | 1            | 6C1RD7YQVvt3YQj0CmuTeu
+Darell                         | 77           | 1            | 1Ej96GIBCTvgH7tNX1r3qr
+Becky G                        | 77           | 1            | 62vDrkBEyJYEOFj1ScBqM7
+Piso 21                        | 76           | 2            | 1j6xOGusnyXq3l6IryKF3G, 5hEM0JchdVzQ5PwvSfITeX
+Mambo Kingz                    | 76           | 1            | 6C1RD7YQVvt3YQj0CmuTeu
+Carlos Vives                   | 75           | 2            | 0Gx4VrHzS7pZOEAGrmXXBH, 0JcNysfWVWaMS7R6vzGB2k
+Lyanno                         | 75           | 1            | 33cF8aTmGJ6TsEf23uqGIN
+NATTI NATASHA                  | 75           | 1            | 62vDrkBEyJYEOFj1ScBqM7
+Juhn                           | 74           | 1            | 0JoHqmlqE0W0i9prt6kcHR
+Bomba Estéreo                  | 73           | 1            | 3k3NWokhRRkEPhCzPmV8TW
+Tego Calderón                  | 73           | 1            | 5YJ4BVvTFmVCxUyhKejHfR
+Standly                        | 73           | 1            | 0NO2zL0kw8sGGnaMvHKAZF
+Brray                          | 73           | 1            | 33cF8aTmGJ6TsEf23uqGIN
+DJ Nelson                      | 72           | 1            | 45jM2fuCq0NHD9p7xn0ptd
+Trap Capos                     | 72           | 1            | 0JoHqmlqE0W0i9prt6kcHR
+Baby Rasta                     | 71           | 1            | 58cEG7FsVoipRiRKUMgOjo
+Ñejo                           | 71           | 1            | 45jM2fuCq0NHD9p7xn0ptd
+Jory Boy                       | 71           | 1            | 5hKjEpYrJIJs6uPl7zw6Y6
+Greeicy                        | 71           | 2            | 3IyPnNX142pvWx6D5CiimD, 041Kcvnw8nOdq8xiRibPTG
+Bellakath                      | 71           | 1            | 4ilZV1WNjL7IxwE81OnaRY
+Mau y Ricky                    | 70           | 1            | 56f5qnyAlZdlz8wrUDA50h
+Bacilos                        | 69           | 3            | 7DhYjNLksXZhbRQeheAums, 5fSDXbY8o9pA3TKwAbfwML, 7mHFWWfVlhqGjeIQ5qt9i2
+Héctor "El Father"             | 69           | 1            | 614NVFo5csQqRnryl4jXs2
+Silvestre Dangond              | 69           | 1            | 1EoaN82FtXfHvKWxITkr8S
+Calle 13                       | 69           | 1            | 1q8NdCAQ9QUjpYiqzdd3mv
+Chino & Nacho                  | 67           | 2            | 23WI5V2eD4EyGKxSl7Pyeq, 77VXEopCatM9pqJl0beeCj
+CNCO                           | 67           | 1            | 3AEZUABDXNtecAOSC1qTfo
+DJ Premier                     | 66           | 1            | 4TFNKnMWjcMWzpkSwQrrcu
+Mike Bahía                     | 66           | 1            | 3IyPnNX142pvWx6D5CiimD
+Carlos Baute                   | 66           | 1            | 3UI9I3e1g1y5T3SMfdgfGO
+Angel Y Khriz                  | 66           | 1            | 2Jz1X6ZB0gkkCVgmeVGVGp
+La Factoria                    | 66           | 1            | 6yLqoieklk9gwabLaUDJ4s
+Polimá Westcoast               | 65           | 1            | 6wtZPYBIXUvCpXwVjMCJBf
+Pailita                        | 65           | 1            | 6wtZPYBIXUvCpXwVjMCJBf
+Nacho                          | 65           | 1            | 041Kcvnw8nOdq8xiRibPTG
+Marta Sánchez                  | 65           | 1            | 3UI9I3e1g1y5T3SMfdgfGO
+Eddy Lover                     | 65           | 1            | 6yLqoieklk9gwabLaUDJ4s
+Alejo                          | 64           | 1            | 4srcMdbm2qzVG98tJajHxp
+Ivy Queen                      | 64           | 1            | 7mY1dIaY9vY6Jrlrjg3dRn
+La Mosca                       | 63           | 1            | 19CmuECYssqkPWANF4nLWM
+Paloma Mami                    | 63           | 1            | 6wtZPYBIXUvCpXwVjMCJBf
+Stars Music Chile              | 63           | 1            | 0NO2zL0kw8sGGnaMvHKAZF
+Alex Gargolas                  | 63           | 1            | 1Hu8EMKCGD25srDybGOtBC
+El Cata                        | 62           | 1            | 42k1KeBehAd83lrGt1okiC
+Maldy                          | 60           | 1            | 1ga4PztXOIw1yBbdUt2X8v
+Gocho "El Lápiz De Platino"    | 60           | 1            | 2Jz1X6ZB0gkkCVgmeVGVGp
+John Eric                      | 60           | 1            | 2Jz1X6ZB0gkkCVgmeVGVGp
+IAmChino                       | 59           | 1            | 5Uel5PmPBZICA0TQTI912U
+El Chacal                      | 59           | 1            | 5Uel5PmPBZICA0TQTI912U
+Yaviah                         | 58           | 1            | 4j4w4CXm6BSr0s25wAWrrX
+Casa De Leones                 | 58           | 1            | 7d05Cx72W1WsWUw7MAD7ia
+Pj Sin Suela                   | 57           | 1            | 45jM2fuCq0NHD9p7xn0ptd
+ROBI                           | 57           | 1            | 4srcMdbm2qzVG98tJajHxp
+ABRA                           | 56           | 1            | 5jZ32WOU7sqzDYbzINwMUk
+Klasico                        | 55           | 1            | 0uRHot8ml8U8cYVwwzMwNT
+Mackie Ranks                   | 54           | 1            | 3YT1coaqAGWLRBIBJOu8AN
+Randy                          | 39           | 2            | 5clFSlfkCRlhnH1cAQjSBi, 1Hu8EMKCGD25srDybGOtBC
+aleXaa                         | 0            | 1            | 4EL4EiucCwiYAWcptXnToW

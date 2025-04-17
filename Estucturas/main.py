@@ -16,7 +16,7 @@ client_secret="ac7a2ed9117241e7adb9ea2418b2371f"
 token = getAccessToken(client_id, client_secret)
 
 # Paso 2: Obtener la playlist
-playlist = getPlayList(token, "1iFJnL9bCaSkDRMua0gMGY")
+playlist = getPlayList(token, "0ewRU6vDrDDzQxivxglltI")
 
 # Imprimir canciones
 def printTrackNames(playlist_json):
@@ -28,7 +28,7 @@ def printTrackNames(playlist_json):
     except Exception as e:
         print("Error al imprimir canciones:", e)
 
-printTrackNames(playlist)
+#printTrackNames(playlist)
 
 # Crear la carpeta para los archivos generados si no existe
 output_folder = "archivos_generados"
@@ -80,17 +80,21 @@ ordenarPorPopularidad(
 )
 
 artistaMasPopular(archivo_artistas)
-
 id_usuario = input("🆔 Ingresa el ID de la canción a añadir: ")
 
 # Buscar datos reales en la API
 datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
-
+print("holis")
+if not os.path.exists(archivo_canciones_ordenadas):
+    print(f"El archivo {archivo_canciones_ordenadas} no existe. Creándolo...")
+    with open(archivo_canciones_ordenadas, 'w', encoding="ISO-8859-1") as archivo:
+        archivo.write("")  # Crear un archivo vacío
+print(f"Ruta del archivo canciones ordenadas: {archivo_canciones_ordenadas}")
 # Convertirlo a una línea
 if datos_cancion:
     linea_cancion = construirLineaCancion(datos_cancion)
     print(linea_cancion)
-    insertarCancionOrdenada("canciones_ordenadas.txt", linea_cancion, 4)
+    insertarCancionOrdenada(archivo_canciones_ordenadas, linea_cancion, 4)
 else:
     print("❌ No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
 
