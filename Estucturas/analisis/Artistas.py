@@ -32,20 +32,33 @@ def artistaMasCanciones(nombre_archivo):
 #2. ¿Qué artista tiene mayor índice de popularidad?
 def artistaMasPopular(nombre_archivo):
     try:
+        max_artista = None
+        max_popularidad = -1  # Inicializamos con un valor imposible de popularidad
+
         with open(nombre_archivo, "r") as f:
             # Saltamos las primeras 4 líneas si son encabezados
             for _ in range(4):
                 next(f)
             
-            # Leemos la primera línea después de los encabezados
-            linea = next(f, None)  # Usamos next para leer la siguiente línea de manera segura
-            if linea:
-                #se obtienen los campos de artista y popularidad
-                max_artista = obtenerCampo(linea, 1)  # El nombre del artista
-                max_popularidad = obtenerCampo(linea, 2) # La popularidad 
+            # Iteramos sobre cada línea del archivo
+            for linea in f:
+                if "|" in linea:
+                    linea = linea.strip()
+                    
+                    # Obtenemos los campos de artista y popularidad
+                    artista = obtenerCampo(linea, 1).strip()
+                    popularidad_str = obtenerCampo(linea, 2).strip()
+                    
+                    # Convertimos la popularidad a entero
+                    popularidad = int(popularidad_str)
+                    
+                    # Verificamos si esta popularidad es mayor que la máxima encontrada
+                    if popularidad > max_popularidad:
+                        max_popularidad = popularidad
+                        max_artista = artista
 
-                # Como el archivo está ordenado, ya no necesitamos continuar
-                print(f"El artista más popular es: {max_artista} con una popularidad de {max_popularidad}")
+        print(f"El artista más popular es: {max_artista} con una popularidad de {max_popularidad}")
+        return max_artista, max_popularidad
     except Exception as e:
         print("Error al buscar artista con mayor índice de popularidad:", e)
         return None

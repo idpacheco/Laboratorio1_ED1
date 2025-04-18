@@ -1,5 +1,5 @@
 from analisis.Canciones import obtenerCampo
-
+import os
 def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titulo, encabezados):
     def obtenerPopularidad(linea):
         # Obtiene el campo de Popularidad (asumimos que empieza en la línea 5)
@@ -61,41 +61,34 @@ def insertarCancionOrdenada(nombre_archivo, nueva_linea, campo_popularidad):
         try:
             valor = obtenerCampo(linea, campo_popularidad).strip()
             return int(valor)
-        except ValueError:
-            raise ValueError(f"Error al obtener popularidad de la línea: {linea}") # en este sale una advertencia por las primeras 4 lineas que no encuentra la popularidad
+        except:
+            raise ValueError(f"No se pudo obtener popularidad de: {linea}")
 
     try:
-        # Leer todas las líneas actuales del archivo
-        with open(nombre_archivo, "r", encoding="ISO-8859-1") as archivo:
-            lineas = archivo.readlines()
-
-        # Validar la nueva línea
-        if "|" not in nueva_linea:
-            raise ValueError(f"La nueva línea no tiene el formato esperado: {nueva_linea}")
-
-        nueva_popu = obtenerPopularidad(nueva_linea)
-        nuevas_lineas = []
-        insertado = False
-
-        for linea in lineas:
-            if not insertado and "|" in linea:
-                try:
-                    popu_actual = obtenerPopularidad(linea)
-                    if nueva_popu > popu_actual:
-                        nuevas_lineas.append(nueva_linea)
-                        insertado = True
-                except ValueError as e:
-                    print(f"Advertencia: {e}")
-            nuevas_lineas.append(linea)
-
-        if not insertado:
-            nuevas_lineas.append(nueva_linea)
-
-        # Escribir las líneas actualizadas en el archivo
-        with open(nombre_archivo, "w", encoding="ISO-8859-1") as archivo:
-            archivo.writelines(nuevas_lineas)
-
-        print("✅ Canción insertada en el lugar correcto.")
+        archivo_temp = nombre_archivo + ".temp"
+        with open(nombre_archivo, "r", encoding="utf-8") as archivo_lectura, \
+             open(archivo_temp, "w", encoding="utf-8") as archivo_escritura:
+            # Copiar encabezado
+            for _ in range(4):
+                archivo_escritura.write(archivo_lectura.readline())
+            insertado = False
+            # Leer el archivo (desde la linea 5) y buscar la posición correcta para insertar
+            for linea in archivo_lectura:
+                if not insertado and "|" in linea:
+                    try:
+                        popu_actual = obtenerPopularidad(linea)
+                        nueva_popu = obtenerPopularidad(nueva_linea)
+                        if nueva_popu > popu_actual:
+                            archivo_escritura.write(nueva_linea)
+                            insertado = True
+                    except:
+                        pass  # Si no se puede obtener popularidad, igual escribe la línea
+                archivo_escritura.write(linea)
+            if not insertado:
+                archivo_escritura.write(nueva_linea.strip() + "\n")
+        # Reemplazar archivo original con el nuevo
+        os.replace(archivo_temp, nombre_archivo)
+        print("✅ Canción insertada correctamente y en orden.")
     except Exception as e:
-        print(f"❌ Error al insertar la canción: {e}")
+        print(f"❌ Error: {e}")
 

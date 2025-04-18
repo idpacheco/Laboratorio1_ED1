@@ -2,22 +2,22 @@ from SpotifyAPI import getAccessToken, getPlayList, obtenerDatosDesdeSpotify, co
 from Archivos import guardarCanciones, guardarArtistas
 
 from analisis.Artistas import artistaMasCanciones, artistaMasPopular
-from analisis.Busqueda import Indice, buscarPorArtista, busquedaBinariaPorPopularidad
-from analisis.Canciones import promedioDuracion, mayorAlpromedio, buscarCancionesArtista
+from analisis.Busqueda import Indice, buscarPorArtista, busquedaBinariaPopularidad
+from analisis.Canciones import  mayorAlpromedio, buscarCancionesArtista, promedioDuracion
 from analisis.Archivos import promedioBytes, obtenerCampo
 from analisis.Ordenamiento import ordenarPorPopularidad, insertarCancionOrdenada
 
 import os  
 
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
-client_id= "d6d0ada48ab5470b8751788ecf8624c8"
-client_secret="ac7a2ed9117241e7adb9ea2418b2371f"
+client_id= "5559ed36d1ff443db1bbc23292aee25a"
+client_secret="65e6d5480a3c46be890d01dc216308fe"
 
-# Paso 1: Obtener el token
+# Obtener el token
 token = getAccessToken(client_id, client_secret)
 
-# Paso 2: Obtener la playlist
-playlist = getPlayList(token, "0ewRU6vDrDDzQxivxglltI")
+#Obtener la playlist
+playlist = getPlayList(token, "5QHM2JUuKvFRFiRhOJx67p")
 
 # Imprimir canciones
 def printTrackNames(playlist_json):
@@ -28,8 +28,6 @@ def printTrackNames(playlist_json):
             print(f"{i}. {item['track']['name']}")
     except Exception as e:
         print("Error al imprimir canciones:", e)
-
-#printTrackNames(playlist)
 
 # Crear la carpeta para los archivos generados si no existe
 output_folder = "archivos_generados"
@@ -42,24 +40,25 @@ archivo_artistas = os.path.join(output_folder, "artistas.txt")
 archivo_canciones_ordenadas = os.path.join(output_folder, "canciones_ordenadas.txt")
 archivo_artistas_ordenados = os.path.join(output_folder, "artistas_ordenados.txt")
 
+
 guardarCanciones(playlist['tracks']['items'], archivo_canciones)
-#archivo_canciones = "canciones.txt"  # o el nombre que le diste
+#archivo_canciones = "canciones.txt"
 
 guardarArtistas(playlist['tracks']['items'], archivo_artistas, token)
-#archivo_artistas = "artistas.txt"  # o el nombre que le diste
+#archivo_artistas = "artistas.txt"  
 
 artista, cantidad = artistaMasCanciones(archivo_artistas)
-print(f"🎤 El artista con más canciones es: {artista} con {cantidad} canciones.")
+print(f"El artista con más canciones es: {artista} con {cantidad} canciones.")
 
 promedioArchivo1 =promedioBytes (archivo_artistas)
-print(f"📊 El tamaño promedio de {archivo_artistas}  por registro es: {promedioArchivo1:.2f} bytes.")
+print(f"El tamaño promedio de {archivo_artistas}  por registro es: {promedioArchivo1:.2f} bytes.")
 
 promedioArchivo2 =promedioBytes (archivo_canciones)
-print(f"📊 El tamaño promedio de {archivo_canciones} por registro es: {promedioArchivo2:.2f} bytes.")
+print(f"El tamaño promedio de {archivo_canciones} por registro es: {promedioArchivo2:.2f} bytes.")
 
-artista_buscado = "Shakira" # Cambia esto por el artista que quieras buscar
+artista_buscado =input ("Escriba el nombre del artista que desea buscar:")
 total = buscarCancionesArtista(archivo_canciones, artista_buscado)
-print(f"🎵 Total de canciones de '{artista_buscado}': {total}")
+print(f" Total de canciones de '{artista_buscado}': {total}")
 
 cont = mayorAlpromedio(archivo_canciones)
 print(f"Hay '{cont}' canciones con mayor duración al promedio")
@@ -81,8 +80,7 @@ ordenarPorPopularidad(
 )
 
 artistaMasPopular(archivo_artistas)
-"""
-id_usuario = input("🆔 Ingresa el ID de la canción a añadir: ")
+id_usuario = input("Ingresa el ID de la canción a añadir: ")
 
 # Buscar datos reales en la API
 datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
@@ -94,18 +92,21 @@ if not os.path.exists(archivo_canciones_ordenadas):
 print(f"Ruta del archivo canciones ordenadas: {archivo_canciones_ordenadas}")
 # Convertirlo a una línea
 if datos_cancion:
-    linea_cancion = construirLineaCancion(datos_cancion)
+    artistas_str = datos_cancion['artista']
+    linea_cancion = f"{datos_cancion['id']:22} | {datos_cancion['nombre']:30} | {datos_cancion['duracion']:<13} | {datos_cancion['popularidad']:<10} | {artistas_str}\n"
     print(linea_cancion)
     insertarCancionOrdenada(archivo_canciones_ordenadas, linea_cancion, 4)
+ 
+
 else:
-    print("❌ No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
-"""
+    print("No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
+
 #Ejemplo de busqueda binaria por popularidad
 popu = int(input("Ingresa la popularidad de la canción a buscar: "))
-busquedaBinariaPorPopularidad(archivo_canciones_ordenadas, popu)
+busquedaBinariaPopularidad(archivo_canciones_ordenadas, popu)
 
 indice, canciones= Indice(archivo_canciones_ordenadas) #devuelve tanto indice como canciones
-artista = input("🎤 Ingresa el nombre del artista a buscar: ")
+artista = input("Ingresa el nombre del artista a buscar: ")
 resultados = buscarPorArtista(artista, indice, canciones)
 
 if resultados:
@@ -113,5 +114,5 @@ if resultados:
     for cancion in resultados:
         print(cancion)
 else:
-    print("❌ No se encontraron canciones para ese artista.")
+    print("No se encontraron canciones para ese artista.")
 

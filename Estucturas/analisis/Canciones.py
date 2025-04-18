@@ -14,7 +14,6 @@ def promedioDuracion(nombre_archivo):
         if "|" in linea: 
           if linea.endswith("\n"): 
               linea = linea[:-1]  
-              #duracion_str = obtenerCampo(linea, 3).strip() 
               duracion_str = obtenerCampo(linea,3) #campo 3 =duración de la canción 
               total_duracion += float(duracion_str) 
               total_canciones+=1 
