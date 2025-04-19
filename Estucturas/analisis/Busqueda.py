@@ -4,9 +4,12 @@ import os
 import linecache
 
 #8. ¿Cómo implementarías una búsqueda binaria en un archivo secuencial ordenado?
+import linecache
 
 def busquedaBinariaPopularidad(archivo, popularidad_buscada):
-    # Contar total de líneas de datos (excluyendo encabezado)
+    import os
+
+    # Paso 1: contar total de líneas de datos (excluyendo encabezado)
     with open(archivo, "r", encoding="utf-8") as f:
         lineas = f.readlines()
     total_lineas = len(lineas) - 4  # excluye encabezado decorativo
@@ -14,7 +17,7 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
     inicio = 5  # línea real donde empieza el contenido (línea 0 es la primera)
     fin = inicio + total_lineas - 1
     encontrado = False
-    
+
     while inicio <= fin:
         mitad = (inicio + fin) // 2
         linea = linecache.getline(archivo, mitad).strip()
@@ -88,7 +91,6 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
         print("❌ No se encontró ninguna canción con esa popularidad.")
 
     linecache.clearcache()
-
 
 #9. Propón una estructura de archivos de índices para acelerar las búsquedas por artista sin perder el enfoque secuencial.
 def Indice(ruta_archivo):

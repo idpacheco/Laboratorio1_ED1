@@ -1,6 +1,6 @@
 from analisis.Archivos import obtenerCampo
 
-#5. ¿Qué canciones tienen una duración superior al promedio de duración de todas las canciones en la playlist? D
+#5. ¿Qué canciones tienen una duración superior al promedio de duración de todas las canciones en la playlist? 
 def promedioDuracion(nombre_archivo):
     total_duracion = 0
     total_canciones = 0

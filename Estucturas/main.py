@@ -18,7 +18,6 @@ token = getAccessToken(client_id, client_secret)
 
 #Obtener la playlist
 playlist = getPlayList(token, "5QHM2JUuKvFRFiRhOJx67p")
-
 # Imprimir canciones
 def printTrackNames(playlist_json):
     try:
@@ -78,28 +77,33 @@ ordenarPorPopularidad(
     "ARTISTAS ORDENADOS POR POPULARIDAD",
     f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones"
 )
-
 artistaMasPopular(archivo_artistas)
-id_usuario = input("Ingresa el ID de la canción a añadir: ")
 
-# Buscar datos reales en la API
-datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
+continuar = True
+while continuar== True:
+    id_usuario = input("Ingresa el ID de la canción a añadir: ")
+    
+    # Obtener datos desde la API
+    datos_cancion = obtenerDatosDesdeSpotify(id_usuario)
 
-if not os.path.exists(archivo_canciones_ordenadas):
-    print(f"El archivo {archivo_canciones_ordenadas} no existe. Creándolo...")
-    with open(archivo_canciones_ordenadas, 'w', encoding="ISO-8859-1") as archivo:
-        archivo.write("")  # Crear un archivo vacío
-print(f"Ruta del archivo canciones ordenadas: {archivo_canciones_ordenadas}")
-# Convertirlo a una línea
-if datos_cancion:
-    artistas_str = datos_cancion['artista']
-    linea_cancion = f"{datos_cancion['id']:22} | {datos_cancion['nombre']:30} | {datos_cancion['duracion']:<13} | {datos_cancion['popularidad']:<10} | {artistas_str}\n"
-    print(linea_cancion)
-    insertarCancionOrdenada(archivo_canciones_ordenadas, linea_cancion, 4)
- 
+    if not os.path.exists(archivo_canciones_ordenadas):
+        print(f"El archivo {archivo_canciones_ordenadas} no existe. Creándolo...")
+        with open(archivo_canciones_ordenadas, 'w', encoding="ISO-8859-1") as archivo:
+            archivo.write("")  # Crear el archivo vacío
 
-else:
-    print("No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
+    if datos_cancion:
+        artistas_str = datos_cancion['artista']
+        linea_cancion = f"{datos_cancion['id']:22} | {datos_cancion['nombre']:30} | {datos_cancion['duracion']:<13} | {datos_cancion['popularidad']:<10} | {artistas_str}\n"
+        print("✅ Canción obtenida:")
+        print(linea_cancion)
+        insertarCancionOrdenada(archivo_canciones_ordenadas, linea_cancion, 4)
+    else:
+        print("❌ No se pudo obtener datos de la canción. Verifica el ID o las credenciales.")
+
+    respuesta = input("¿Deseas continuar? (sí/no): ").strip().lower()
+    if respuesta in ["no", "n"]:
+        continuar = False
+
 
 #Ejemplo de busqueda binaria por popularidad
 popu = int(input("Ingresa la popularidad de la canción a buscar: "))

@@ -1,5 +1,8 @@
 from analisis.Canciones import obtenerCampo
 import os
+import shutil
+
+#6. Implementa un algoritmo para ordenar las canciones por popularidad
 def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titulo, encabezados):
     def obtenerPopularidad(linea):
         # Obtiene el campo de Popularidad (asumimos que empieza en la línea 5)
@@ -12,7 +15,7 @@ def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titu
         return "[X] " + linea  # le agrega un prefijo para saber que ya fue procesada
 
     # Copiamos el archivo original a uno temporal donde vamos a marcar las líneas procesadas
-    import shutil
+
     archivo_temp = "archivo_temp.txt"
     shutil.copy(nombre_archivo, archivo_temp)
 
@@ -55,7 +58,7 @@ def ordenarPorPopularidad(nombre_archivo, nombre_salida, campo_popularidad, titu
 
     print(f"✅ Ordenación por popularidad guardada en '{nombre_salida}'")
 
-
+#7. Diseña un método para insertar nuevas canciones manteniendo el orden por popularidad.
 def insertarCancionOrdenada(nombre_archivo, nueva_linea, campo_popularidad):
     def obtenerPopularidad(linea):
         try:
