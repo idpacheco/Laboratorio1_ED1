@@ -30,15 +30,15 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
         linea = linecache.getline(archivo, linea_archivo).strip()
 
         # Depuración: Mostrar la línea que estamos procesando
-        print(f"\nBuscando popularidad: {popularidad_buscada}")
-        print(f"Línea actual: {linea} (Línea en el archivo: {linea_archivo})")
+        #print(f"\nBuscando popularidad: {popularidad_buscada}")
+        #print(f"Línea actual: {linea} (Línea en el archivo: {linea_archivo})")
 
         # Limpiar espacios extra y caracteres no visibles
         linea_limpia = ''.join(linea.split())  # Elimina todos los espacios
         print(f"Línea limpia: {linea_limpia}")
 
         # Saltar líneas vacías o mal formateadas
-        if not linea_limpia or "-" in linea_limpia:
+        if not linea_limpia:
             print("⚠️ Línea vacía o mal formada.")
             inicio += 1
             continue
@@ -51,10 +51,10 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
             break
 
         # Depuración: Ver la popularidad que estamos procesando
-        print(f"Popularidad actual: {popu_actual}")
+        # print(f"Popularidad actual: {popu_actual}")
 
         # Mostrar los valores que estamos comparando
-        print(f"Comparando: popularidad_buscada ({popularidad_buscada}) con popu_actual ({popu_actual})")
+        # print(f"Comparando: popularidad_buscada ({popularidad_buscada}) con popu_actual ({popu_actual})")
 
         if popu_actual == popularidad_buscada:
             print("\n✅ Canción encontrada:")

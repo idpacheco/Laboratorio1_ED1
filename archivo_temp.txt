@@ -1,0 +1,175 @@
+========================================================ARTISTAS========================================================
+
+Artista                        | Popularidad  | # Canciones  | Canciones
+------------------------------------------------------------------------------------------------------------------------
+[X] Fresto Music                   | 0            | 2            | 4dyzxv5SsdBtunuU3qj7Ti, 6L3Gnl83Hndm9ErMhEW9B4
+[X] ChiChi Peralta                 | 0            | 1            | 2q9udNV9NK0BL3q9p6TLxf
+[X] Jandy Feliz                    | 0            | 1            | 2q9udNV9NK0BL3q9p6TLxf
+[X] Herencia de Timbiqui           | 0            | 2            | 2FkA1Pj0HaXh7sQb9zwkKh, 0dXGYzrcRP1rmSAumo4wFe
+[X] Grupo Niche                    | 0            | 6            | 4ubwzNjqHGaZZ5k06PDx1H, 2uJyG7lhmZ8bFrbVVlc6AH, 26ucR33snMkRD6JExhoD6I, 6GsxCYC9UaL0J8b8MVrRqX, 29iVbAneOn1ZGW4zzrBlUb, 3SXWtn3YbXOuz6s9LN8LeJ
+[X] Oscar D'León                   | 0            | 1            | 4YOz0Fl5q0cXanSCUtsW13
+[X] Gilberto Santa Rosa            | 0            | 3            | 67AiNnqm2FH8jlZGiQUU0g, 7JElWLgpQ7lxN1JNIYwuVu, 5JFLXnWbJ0gsLFalPc5vpH
+[X] Adolescent's Orquesta          | 0            | 1            | 68runhwF0SdEN1DFSadXWk
+[X] Joe Arroyo                     | 0            | 5            | 15DUcGdD7BnGEJW6cZmtbd, 54NxLSsiNtL61VSCOLNSSA, 4aLmwVNexgrqcUdsnSjbdV, 6bRSkK6yJPQQKrITKViKCU, 6WNAd46dtiBqakGzvlcCla
+[X] La Verdad                      | 0            | 4            | 15DUcGdD7BnGEJW6cZmtbd, 4aLmwVNexgrqcUdsnSjbdV, 6bRSkK6yJPQQKrITKViKCU, 6WNAd46dtiBqakGzvlcCla
+[X] Eddie Santiago                 | 0            | 1            | 6HJCGXNww93AIaaxUb7C3O
+[X] Frankie Ruiz                   | 0            | 1            | 7DcJXd2xxVcohwehWahFJJ
+[X] Willie Gonzalez                | 0            | 1            | 2YtWJzOcIHGC7uNbANUtPE
+[X] Maelo Ruiz                     | 0            | 1            | 5WyX397vZTvYQwSrylCka0
+[X] Rey Ruiz                       | 0            | 1            | 0vffx55ffXHq2bz0yKlZiM
+[X] Jerry Rivera                   | 0            | 1            | 3WLXf7K7mIGEBtFq41afce
+[X] Manuel Turizo                  | 0            | 2            | 5ww2BF9slyYgNOk37BlC4u, 5fhcuVxuBWfgNXGuyAtLmr
+[X] Romeo Santos                   | 0            | 4            | 5PycBIeabfvX3n9ILG7Vrv, 5A9AILetvfQg3LHyX5X0pV, 4NoOME4Dhf4xgxbHDT7VGe, 3f5lA8nnc4YYF1qf78WpHw
+[X] Prince Royce                   | 0            | 1            | 6cJLfIqwh0tCKRjYM3WpZ5
+[X] Marc Anthony                   | 0            | 2            | 5A9AILetvfQg3LHyX5X0pV, 3yEtuhGR8jOtusa29jWrhG
+[X] Aventura                       | 0            | 3            | 6G4U9avyBNEfP0fAIduev3, 0HDHY6RSHHG2ZTE0cMT4GJ, 65H6t1WQBim6q93yM8fEwn
+[X] Don Omar                       | 0            | 2            | 6G4U9avyBNEfP0fAIduev3, 69Ej1xrGjOcHvIMtMKxK0G
+[X] Juan Luis Guerra 4.40          | 0            | 5            | 2QyJTZeqxmVfbesnoN3r7k, 3H9GcHKKJyZ9TEOLKlJ1U5, 1ujxAyWq352rX1Gw5GEXpy, 6IfMD01z39P15HKezjdaMP, 1oInQX1RuH1TcHuDv8Gvw3
+[X] Vicentico                      | 0            | 1            | 4zsDA31stWMtLveU61hejd
+[X] Selena                         | 0            | 1            | 0m99Cj2c49fFUWqe50mRx4
+[X] Diomedes Diaz                  | 0            | 3            | 54NxLSsiNtL61VSCOLNSSA, 0iuOHCKySYakO6gvNmDiJ4, 61xyQGDYH9yMn4H9MpTh3g
+[X] Kinito Mendez                  | 0            | 1            | 6l7DPjyYbzWp9oI45KKg1l
+[X] Rikarena                       | 0            | 2            | 0CcL3XBAzarwDseGAm1IFl, 2dg5usl6OJasRbjvUHOlcF
+[X] Ivan Zuleta                    | 0            | 1            | 0iuOHCKySYakO6gvNmDiJ4
+[X] Checo Acosta                   | 0            | 2            | 1Znsl3y50Os8diORZ8jcIl, 0SvRJNQmi1nB53cITmaqE6
+[X] Silvestre Dangond              | 0            | 5            | 7LHLwdtTHOHNFDuLugtUEH, 6knQ5UA9vFcdNLj7lCJzqP, 2xXwJpV9XSULSiFdCVHyru, 4mGRIaDuszXYCTGZfLjjpA, 1UGXsiNn0ACf2MXuHXuiJE
+[X] Juancho De La Espriella        | 0            | 2            | 7LHLwdtTHOHNFDuLugtUEH, 2xXwJpV9XSULSiFdCVHyru
+[X] Rolando Ochoa                  | 0            | 2            | 6knQ5UA9vFcdNLj7lCJzqP, 4HQa0epS8B23YEHqyA2fKr
+[X] Wilfrido Vargas                | 0            | 2            | 0W1NeP4WNvhtsvKmowN1lb, 6E8LDqPYhgxGyZE44tXXkH
+[X] Sergio Vargas                  | 0            | 3            | 1QFcugUXrv32vWoKou01z4, 5CmVYFZinikaqh9Mf2J1Xl, 2qlsW9JoDmXNyM7odbFxmn
+[X] Carlos Vives                   | 0            | 5            | 7hghCod6sKsoSE6c5myofq, 4bUrpXdPZIJMPUksA8ggDB, 2L2zLsybbySytu4RI5z3aK, 3KpM91VH9eB3tWWDobLMi5, 0HRMIu0FgBAkY0r8XGzExe
+[X] Maluma                         | 0            | 3            | 1yoMvmasuxZfqHEipJhRbp, 4HzqWEdAbzcVFDv0pvxV4w, 6DUdDIRgLqCGq1DwkNWQTN
+[X] Yandel                         | 0            | 2            | 7LABrQFfRYcZUqUwng0Heb, 4FAKtPVycI4DxoOHC01YqD
+[X] Rauw Alejandro                 | 0            | 3            | 2TDyyEBasw10wu5Uh94bR1, 79HZAZNnOE97rb2hnI0XQr, 6mmPpaltUZK7xjNlBPQQ0p
+[X] Baby Rasta                     | 0            | 1            | 2TDyyEBasw10wu5Uh94bR1
+[X] Deavele Santos                 | 0            | 1            | 4tDUIRZU50xaP0uRAGklqy
+[X] Mr Black El Presidente         | 0            | 1            | 46W0RhOuD4nUPCCc6Gjsg7
+[X] Giblack                        | 0            | 1            | 7HOlapPvYVls2Ei0L83eLn
+[X] DJ Dever                       | 0            | 1            | 6n7g87PKuRMXQFgUnM3ri1
+[X] La Toxi Costeña                | 0            | 1            | 6n7g87PKuRMXQFgUnM3ri1
+[X] Criss & Ronny                  | 0            | 1            | 7bfutM1qadONSJ1UAPOKqq
+[X] La Colectiva Élite             | 0            | 1            | 7bfutM1qadONSJ1UAPOKqq
+[X] Kevin Florez                   | 0            | 1            | 2irs5LroVpUDR36Act6UsS
+[X] Nicky Jam                      | 0            | 3            | 2irs5LroVpUDR36Act6UsS, 2VSK0CBTBzki1AOVJV83k8, 7geOCrsAm3LNJCrH81bR5a
+[X] Becky G                        | 0            | 2            | 59L8x0xy8njj75vzVCPMqg, 7FlQk2gJ6TBrHHiidvdR2O
+[X] El Alfa                        | 0            | 3            | 59L8x0xy8njj75vzVCPMqg, 5w9QfSM6iY9pPaxOj4ByT4, 1sviDBcAqVOxMXq4xITVEs
+[X] KAROL G                        | 0            | 11           | 2FSGUA0gFgGeQdprjtGM2M, 7dSZ6zGTQx66c2GF91xCrb, 1ga4PztXOIw1yBbdUt2X8v, 7FlQk2gJ6TBrHHiidvdR2O, 6WbAhuwE6fCOriBu5786X1, 0bI7K9Becu2dtXK1Q3cZNB, 0dKg2vGC1hFqcK5LGTaKzX, 1WvrDdouh6C51In1SdATbq, 0DWdj2oZMBFSzRsi2Cvfzf, 4NoOME4Dhf4xgxbHDT7VGe, 2ksOAxtIxY8yElEWw8RhgK
+[X] Mariah Angeliq                 | 0            | 1            | 2FSGUA0gFgGeQdprjtGM2M
+[X] Maldy                          | 0            | 1            | 1ga4PztXOIw1yBbdUt2X8v
+[X] Ovy On The Drums               | 0            | 1            | 6WbAhuwE6fCOriBu5786X1
+[X] Tiësto                         | 0            | 1            | 0bI7K9Becu2dtXK1Q3cZNB
+[X] Nicki Minaj                    | 0            | 1            | 0dKg2vGC1hFqcK5LGTaKzX
+[X] Fonseca                        | 0            | 3            | 49QjsMw8972j5rfODZzWWq, 2BzPF9dX13wqEAo5a3XPR2, 1UGXsiNn0ACf2MXuHXuiJE
+[X] Alejandro González             | 0            | 2            | 4bUrpXdPZIJMPUksA8ggDB, 6i4OlSxwAfC1IyZkK5Bq8j
+[X] Ivy Queen                      | 0            | 1            | 7mY1dIaY9vY6Jrlrjg3dRn
+[X] Shakira                        | 0            | 1            | 0DWdj2oZMBFSzRsi2Cvfzf
+[X] Bizarrap                       | 0            | 1            | 2tTmW7RDtMQtBk7m2rYeSw
+[X] Quevedo                        | 0            | 1            | 2tTmW7RDtMQtBk7m2rYeSw
+[X] Bad Bunny                      | 0            | 14           | 6Sq7ltF9Qa7SNFBsV5Cogx, 38UYeBLfvpnDSG9GznZdnL, 1IHWl5LamUGEuP4ozKQSXZ, 3k3NWokhRRkEPhCzPmV8TW, 1797zYiX4cKosMH836X9Gt, 41oY4WCTj5kccfesTVFnvN, 6VrQTLzzuyGIYjUDe4kAZk, 48AJSd42lXpicsGqcgopof, 2JPLbjOn0wPCngEot2STUS, 4r9jkMEnArtWGH2rL2FZl0, 2mnXxnrX5vCGolNkaFvVeM, 54ELExv56KCAB4UP9cOCzC, 2TH65lNHgvLxCKXM3apjxI, 4R8BJggjosTswLxtkw8V7P
+[X] Chencho Corleone               | 0            | 2            | 6Sq7ltF9Qa7SNFBsV5Cogx, 6mmPpaltUZK7xjNlBPQQ0p
+[X] Gorillaz                       | 0            | 1            | 38UYeBLfvpnDSG9GznZdnL
+[X] Feid                           | 0            | 7            | 4FAKtPVycI4DxoOHC01YqD, 4srcMdbm2qzVG98tJajHxp, 3kUq4sBcmxhnOtNysZ9yrp, 02jLfqc9gMo8PkHEGHY3OT, 1zsPaEkglFvxjAhrM8yhpr, 0CYTGMBYkwUxrj1MWDLrC5, 2z9YkcLojiOE7Eu2p9lPZR
+[X] Bomba Estéreo                  | 0            | 1            | 3k3NWokhRRkEPhCzPmV8TW
+[X] Lyanno                         | 0            | 1            | 79HZAZNnOE97rb2hnI0XQr
+[X] Brray                          | 0            | 1            | 79HZAZNnOE97rb2hnI0XQr
+[X] Tony Dize                      | 0            | 1            | 1797zYiX4cKosMH836X9Gt
+[X] JHAYCO                         | 0            | 2            | 41oY4WCTj5kccfesTVFnvN, 4R8BJggjosTswLxtkw8V7P
+[X] Cris Mj                        | 0            | 1            | 1O2pcBJGej0pmH2Y9XZMs6
+[X] Pablito Pesadilla              | 0            | 1            | 0kTMK4gNFfLXaTb62w1UaJ
+[X] Polimá Westcoast               | 0            | 2            | 0kTMK4gNFfLXaTb62w1UaJ, 0OTNHGKcqQbk51bOYe462Y
+[X] Nickoog Clk                    | 0            | 1            | 0kTMK4gNFfLXaTb62w1UaJ
+[X] Fran C                         | 0            | 1            | 0kTMK4gNFfLXaTb62w1UaJ
+[X] Pailita                        | 0            | 1            | 0OTNHGKcqQbk51bOYe462Y
+[X] Ryan Castro                    | 0            | 1            | 2rDZhKnPaPG054ExZ6nXUS
+[X] Daddy Yankee                   | 0            | 9            | 48AJSd42lXpicsGqcgopof, 3XjN0mvFkQp1FMVM9Ro5hm, 7d7aPD2oxuzjhOZnu4Dj23, 6ksWMnPcHNyNoNf3y1BQCO, 2j2fIJGh4PMdXt9ULI5Tlc, 2ksOAxtIxY8yElEWw8RhgK, 6RyaV7owmVU6fzEPE17sF1, 7fGODUqa0gtkb72oBVCgCD, 26QKsGW4hMuwiEE1ftUMHe
+[X] Bellakath                      | 0            | 1            | 4ilZV1WNjL7IxwE81OnaRY
+[X] Anitta                         | 0            | 1            | 3FkeNbs9Zeiqkr3WkbOiGp
+[X] Alejo                          | 0            | 1            | 4srcMdbm2qzVG98tJajHxp
+[X] ROBI                           | 0            | 1            | 4srcMdbm2qzVG98tJajHxp
+[X] Arcángel                       | 0            | 1            | 2mnXxnrX5vCGolNkaFvVeM
+[X] Ozuna                          | 0            | 3            | 1zsPaEkglFvxjAhrM8yhpr, 7geOCrsAm3LNJCrH81bR5a, 2ksOAxtIxY8yElEWw8RhgK
+[X] Ñengo Flow                     | 0            | 1            | 54ELExv56KCAB4UP9cOCzC
+[X] Piso 21                        | 0            | 2            | 5fhcuVxuBWfgNXGuyAtLmr, 059bcIhyc2SBwm6sw2AZzd
+[X] Camilo                         | 0            | 3            | 7Dk8r4VR5NoveUvTiCKEXC, 42lpuSQmnLUM1ZXJVzIVOi, 0UQwlF2pRkr1lMN6kNNUj3
+[X] ROSALÍA                        | 0            | 1            | 2FYGZDfsAnNsrm1gVbyKnG
+[X] Christian Nodal                | 0            | 3            | 0UXlu64mDLvfzR8IXMz06J, 63bmZnBN1CiJ9sA4qTEe8y, 1qfoq1qvZT7VwDVeekCJ97
+[X] Los Hermanos Andrade           | 0            | 1            | 32evkZrcFEfIM9SyKm3obK
+[X] NATTI NATASHA                  | 0            | 1            | 7d7aPD2oxuzjhOZnu4Dj23
+[X] Wisin & Yandel                 | 0            | 3            | 7d7aPD2oxuzjhOZnu4Dj23, 15wPtgg6jsyMLhIkjcSpl4, 6ksWMnPcHNyNoNf3y1BQCO
+[X] El Gran Combo De Puerto Rico   | 0            | 3            | 1IcnHHfeAkdc88LybFWwb9, 4fHYtAHpAmsFDq7kTLzgh5, 6InAsgddPjAcuF7mSHDT8K
+[X] ChocQuibTown                   | 0            | 1            | 0HRMIu0FgBAkY0r8XGzExe
+[X] Peter Manjarres y Sergio Luis Rodriguez | 0            | 1            | 3xqT1gSFXBWbEbkx7IvK3t
+[X] J Balvin                       | 0            | 5            | 2VSK0CBTBzki1AOVJV83k8, 1sviDBcAqVOxMXq4xITVEs, 6cy3ki60hLwimwIje7tALf, 2ksOAxtIxY8yElEWw8RhgK, 4R8BJggjosTswLxtkw8V7P
+[X] Farruko                        | 0            | 1            | 40LW0IOX1DDxqvnTLpAKrq
+[X] Sean Paul                      | 0            | 3            | 40LW0IOX1DDxqvnTLpAKrq, 3MhdH8PxqH1FuQp3HBptUI, 2haxvmy6n8quJtJRuORGBh
+[X] Zion                           | 0            | 1            | 6ksWMnPcHNyNoNf3y1BQCO
+[X] Hector                         | 0            | 1            | 6ksWMnPcHNyNoNf3y1BQCO
+[X] Tonny Tun Tun                  | 0            | 1            | 6ksWMnPcHNyNoNf3y1BQCO
+[X] Otto Serge                     | 0            | 1            | 1S2WEX1RBJL1ebpEldMG4V
+[X] Rafael Ricardo                 | 0            | 1            | 1S2WEX1RBJL1ebpEldMG4V
+[X] Wolfine                        | 0            | 1            | 1Ft13La2daEGqz5yWJC7lx
+[X] Totó La Momposina              | 0            | 1            | 6gyKkveHSPxKnZfSu0kYbQ
+[X] Mauro Castillo                 | 0            | 2            | 1CTgLWnF5RVifJXxTDSiEJ, 3KOFm25dQCHhfMuEDNybKT
+[X] Zepekeño El Lominero           | 0            | 1            | 5w9QfSM6iY9pPaxOj4ByT4
+[X] El Pepo Show                   | 0            | 1            | 5w9QfSM6iY9pPaxOj4ByT4
+[X] Buxxi                          | 0            | 1            | 5g2cx0mZFmCNp4GexaifFl
+[X] Major Lazer                    | 0            | 1            | 1sviDBcAqVOxMXq4xITVEs
+[X] Diplo                          | 0            | 1            | 1sviDBcAqVOxMXq4xITVEs
+[X] Jorge Oñate                    | 0            | 1            | 1geLwtTJ0LTCwNA2cX8k9z
+[X] Álvaro López                   | 0            | 1            | 1geLwtTJ0LTCwNA2cX8k9z
+[X] Kaleth Morales                 | 0            | 3            | 6qvCE9WhoF57af6boMwaOz, 4tVCHHdULzG5acuwFmsRPw, 5GpzV7vCxkwdLloBSZg6Xg
+[X] Andres Herrera                 | 0            | 1            | 6qvCE9WhoF57af6boMwaOz
+[X] Black Eyed Peas                | 0            | 1            | 6cy3ki60hLwimwIje7tALf
+[X] Anuel AA                       | 0            | 2            | 2ksOAxtIxY8yElEWw8RhgK, 3f5lA8nnc4YYF1qf78WpHw
+[X] Tainy                          | 0            | 1            | 2TH65lNHgvLxCKXM3apjxI
+[X] Héctor "El Father"             | 0            | 1            | 0AEVupnoNEKPU81AOuPwjS
+[X] Andy Montañez                  | 0            | 1            | 07PF7Djp1Dmrin3X5fy8nA
+[X] Guayacán Orquesta              | 0            | 2            | 1QariEMkM75ewzEb128t2C, 17Sfr3T1chYPGcmM4VlhCh
+[X] Micro TDH                      | 0            | 1            | 059bcIhyc2SBwm6sw2AZzd
+[X] Mau y Ricky                    | 0            | 1            | 0UQwlF2pRkr1lMN6kNNUj3
+[X] Tego Calderón                  | 0            | 1            | 5YJ4BVvTFmVCxUyhKejHfR
+[X] Los Fabulosos Cadillacs        | 0            | 1            | 4lq31N4E4eWqVMZv93sbhJ
+[X] La Mosca                       | 0            | 1            | 19CmuECYssqkPWANF4nLWM
+[X] Vilma Palma e Vampiros         | 0            | 1            | 1x6bkwDyWIOZNFY5blRSs1
+[X] Dj Esli                        | 0            | 1            | 34inPy9EJX1LijFMKdpTs3
+[X] Darek Sotelo                   | 0            | 1            | 34inPy9EJX1LijFMKdpTs3
+[X] Yves Larock                    | 0            | 1            | 2YdX7PEziOImkySNDWsaKM
+[X] Juank Ricardo                  | 0            | 1            | 5GpzV7vCxkwdLloBSZg6Xg
+[X] Los Auténticos Decadentes      | 0            | 1            | 7aB1NvTLtOjrDrOc3CYMOi
+[X] Los Coquillos                  | 0            | 1            | 1fz6Ir8cLZLG9GIDj64PPn
+[X] Sasha                          | 0            | 1            | 3MhdH8PxqH1FuQp3HBptUI
+[X] Jeremy Harding                 | 0            | 1            | 3MhdH8PxqH1FuQp3HBptUI
+[X] Murray Elias                   | 0            | 1            | 3MhdH8PxqH1FuQp3HBptUI
+[X] Eddy Herrera                   | 0            | 1            | 0FcgB8l69nXBOmvhvEXm8o
+[X] Fruko Y Sus Tesos              | 0            | 1            | 1Fp4njyRHJYyMTKP899c0q
+[X] Wilson "Saoko" Manyoma         | 0            | 1            | 1Fp4njyRHJYyMTKP899c0q
+[X] The Latin Brothers             | 0            | 1            | 23jhtHHCIv6TrxLTCjqt2h
+[X] Los Del Rio                    | 0            | 1            | 6mhw2fEPH4fMF0wolNm96e
+[X] Grupo Arenas                   | 0            | 1            | 6yCM4N4v44c3xoMORrhLwW
+[X] Azul Azul                      | 0            | 1            | 0Tl84qfow6Dv0PM60zoBhb
+[X] Gaby                           | 0            | 1            | 5EovvTdzWLCqcoNZARVXJI
+[X] Angel Y Khriz                  | 0            | 2            | 74ZJp3SBtrpWY38FTSCMte, 5oQDYIpN3ieXNHwXAr8TXf
+[X] Zion & Lennox                  | 0            | 1            | 5gflgO9EPbIBf16n5TKnQS
+[X] Gocho "El Lápiz De Platino"    | 0            | 1            | 5oQDYIpN3ieXNHwXAr8TXf
+[X] John Eric                      | 0            | 1            | 5oQDYIpN3ieXNHwXAr8TXf
+[X] Rayo & Toby                    | 0            | 1            | 468L8HV8IykzwRs4eEXn4Y
+[X] Pitbull                        | 0            | 1            | 13plQdOoWSSXPRUSZc5FuM
+[X] Lele Pons                      | 0            | 1            | 11EnQRgRMJwMAesfkB5pnu
+[X] Guaynaa                        | 0            | 1            | 11EnQRgRMJwMAesfkB5pnu
+[X] Joaquin Guiller                | 0            | 2            | 7HD4v4EnxsJh4frQP03PBE, 3GUqkrdLefqJmxVvN5Vgpv
+[X] Pipe Bueno                     | 0            | 2            | 7HD4v4EnxsJh4frQP03PBE, 6i4OlSxwAfC1IyZkK5Bq8j
+[X] Paola Jara                     | 0            | 1            | 7HD4v4EnxsJh4frQP03PBE
+[X] Jhonny Rivera                  | 0            | 1            | 7HD4v4EnxsJh4frQP03PBE
+[X] Marbelle                       | 0            | 1            | 0V0350NvG0jvbiUTXPzIXU
+[X] Vicente Fernández              | 0            | 1            | 3KapNGuqWYFl9gBfJz9tOT
+[X] Judy Santos                    | 0            | 1            | 65H6t1WQBim6q93yM8fEwn
+[X] Juancho Rois                   | 0            | 1            | 61xyQGDYH9yMn4H9MpTh3g
+[X] Plan B                         | 0            | 1            | 0xJFWROBNTBL4sKEuA5pm6
+[X] LiL CaKe                       | 0            | 1            | 1DxEbt6OSbrkRthk6pjZue
+[X] Migrantes                      | 0            | 1            | 1DxEbt6OSbrkRthk6pjZue
+[X] Nico Valdi                     | 0            | 1            | 1DxEbt6OSbrkRthk6pjZue
+[X] Jósean Log                     | 0            | 1            | 6aommJFM8i3iT4inKuDSXh
+[X] Elder Dayán Díaz               | 0            | 1            | 4HQa0epS8B23YEHqyA2fKr
+[X] Elvis Crespo                   | 0            | 1            | 16LDbpqgCtvEZDQ5wfOWrj
+[X] Barbero 507                    | 0            | 1            | 7c7ajSiiY93LrpBoEBCFgB
+[X] Vico C                         | 0            | 1            | 5JFLXnWbJ0gsLFalPc5vpH
