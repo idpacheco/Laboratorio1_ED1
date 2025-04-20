@@ -17,7 +17,9 @@ def promedioBytes(nombre_archivo):
        
     else:
         return 0
-    
+
+
+
 def obtenerCampo(linea, numero_campo):
     campo = ""
     separadores = 0

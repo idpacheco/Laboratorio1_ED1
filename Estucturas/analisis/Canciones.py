@@ -53,7 +53,7 @@ def buscarCancionesArtista(nombre_archivo, artista_buscado):
             for linea in f:
                 lecturas += 1
                 if artista_buscado.lower() in linea.lower():
-                    count += 1
+                    count += 1 
 
         print(f"Se realizaron {lecturas} operaciones de lectura.")
         return count

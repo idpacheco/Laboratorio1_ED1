@@ -10,8 +10,8 @@ from analisis.Ordenamiento import ordenarPorPopularidad, insertarCancionOrdenada
 import os  
 
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
-client_id= "5559ed36d1ff443db1bbc23292aee25a"
-client_secret="65e6d5480a3c46be890d01dc216308fe"
+client_id= "995589e5b4e240d0b6eecc3a35ed4ac0"
+client_secret="074fa5a7c4044b459e108f9ef5ff6c50"
 
 # Obtener el token
 token = getAccessToken(client_id, client_secret)
@@ -105,10 +105,11 @@ while continuar== True:
         continuar = False
 
 
-#Ejemplo de busqueda binaria por popularidad
+#Busqueda binaria por popularidad
 popu = int(input("Ingresa la popularidad de la canción a buscar: "))
 busquedaBinariaPopularidad(archivo_canciones_ordenadas, popu)
 
+#Item 9
 indice, canciones= Indice(archivo_canciones_ordenadas) #devuelve tanto indice como canciones
 artista = input("Ingresa el nombre del artista a buscar: ")
 resultados = buscarPorArtista(artista, indice, canciones)

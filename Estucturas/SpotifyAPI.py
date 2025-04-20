@@ -3,8 +3,8 @@ import requests # type: ignore #Esto es para poderle solicitar los datos a la AP
 from spotipy.oauth2 import SpotifyClientCredentials
 
 #Estas dos variables son para identificar a la app que quiere acceder a los datos de spotify
-client_id= "5559ed36d1ff443db1bbc23292aee25a"
-client_secret="65e6d5480a3c46be890d01dc216308fe"
+client_id= "995589e5b4e240d0b6eecc3a35ed4ac0" 
+client_secret="074fa5a7c4044b459e108f9ef5ff6c50"
 
 def getAccessToken(client_id: str, client_secret: str):
     try:
