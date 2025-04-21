@@ -1,0 +1,202 @@
+=============================================CANCIONES==============================================
+
+ID                     | Nombre                         | Duración (ms) | Popularidad | Artistas
+----------------------------------------------------------------------------------------------------
+4dyzxv5SsdBtunuU3qj7Ti | Me Hace Daño Verte             | 300791        | 77         | Fresto Music
+2q9udNV9NK0BL3q9p6TLxf | Procura                        | 271031        | 77         | ChiChi Peralta, Jandy Feliz
+2FkA1Pj0HaXh7sQb9zwkKh | Sabrás                         | 245015        | 61         | Herencia de Timbiqui
+4ubwzNjqHGaZZ5k06PDx1H | Sin Sentimientos               | 293893        | 70         | Grupo Niche
+2uJyG7lhmZ8bFrbVVlc6AH | Busca Por Dentro               | 354133        | 66         | Grupo Niche
+26ucR33snMkRD6JExhoD6I | Una Aventura                   | 316093        | 69         | Grupo Niche
+4YOz0Fl5q0cXanSCUtsW13 | Detalles                       | 278871        | 67         | Oscar D'León
+67AiNnqm2FH8jlZGiQUU0g | Conciencia                     | 332093        | 63         | Gilberto Santa Rosa
+7JElWLgpQ7lxN1JNIYwuVu | Que Alguien Me Diga            | 290413        | 68         | Gilberto Santa Rosa
+6GsxCYC9UaL0J8b8MVrRqX | Cali Pachanguero               | 310360        | 69         | Grupo Niche
+68runhwF0SdEN1DFSadXWk | Anhelo                         | 248555        | 76         | Adolescent's Orquesta
+15DUcGdD7BnGEJW6cZmtbd | La Noche                       | 263577        | 52         | Joe Arroyo, La Verdad
+6HJCGXNww93AIaaxUb7C3O | Mía                            | 283213        | 71         | Eddie Santiago
+7DcJXd2xxVcohwehWahFJJ | Tú Con Él                      | 302253        | 65         | Frankie Ruiz
+2YtWJzOcIHGC7uNbANUtPE | Pequeñas Cosas                 | 307173        | 66         | Willie Gonzalez
+5WyX397vZTvYQwSrylCka0 | Amiga                          | 255213        | 72         | Maelo Ruiz
+0vffx55ffXHq2bz0yKlZiM | Mi Media Mitad                 | 292973        | 69         | Rey Ruiz
+3WLXf7K7mIGEBtFq41afce | Amores Como el Nuestro         | 302360        | 67         | Jerry Rivera
+5ww2BF9slyYgNOk37BlC4u | La Bachata                     | 162637        | 80         | Manuel Turizo
+5PycBIeabfvX3n9ILG7Vrv | Propuesta Indecente            | 235133        | 83         | Romeo Santos
+6cJLfIqwh0tCKRjYM3WpZ5 | Darte un Beso                  | 206933        | 75         | Prince Royce
+5A9AILetvfQg3LHyX5X0pV | Yo También (feat. Marc Anthony) | 306453        | 71         | Romeo Santos, Marc Anthony
+6G4U9avyBNEfP0fAIduev3 | Ella Y Yo - Featuring Don Omar | 267786        | 84         | Aventura, Don Omar
+0HDHY6RSHHG2ZTE0cMT4GJ | Los Infieles                   | 257186        | 82         | Aventura
+2QyJTZeqxmVfbesnoN3r7k | Tus Besos                      | 197400        | 65         | Juan Luis Guerra 4.40
+3H9GcHKKJyZ9TEOLKlJ1U5 | Bachata Rosa                   | 257079        | 74         | Juan Luis Guerra 4.40
+4zsDA31stWMtLveU61hejd | Algo Contigo                   | 218440        | 67         | Vicentico
+1ujxAyWq352rX1Gw5GEXpy | Las avispas - Versión Privé    | 209360        | 43         | Juan Luis Guerra 4.40
+0m99Cj2c49fFUWqe50mRx4 | Bidi Bidi Bom Bom - 1994 Version | 260173        | 28         | Selena
+54NxLSsiNtL61VSCOLNSSA | Ron Pa' Todo el Mundo (feat. Diomedes Díaz) | 256640        | 44         | Joe Arroyo, Diomedes Diaz
+6l7DPjyYbzWp9oI45KKg1l | Tamarindo Seco / La Garrapata / La Mata De Patilla - Medley | 286306        | 36         | Kinito Mendez
+4aLmwVNexgrqcUdsnSjbdV | El Centurión de la Noche       | 279504        | 38         | Joe Arroyo, La Verdad
+0CcL3XBAzarwDseGAm1IFl | Cutibili Pacha                 | 280533        | 41         | Rikarena
+0iuOHCKySYakO6gvNmDiJ4 | Caracoles de Colores           | 202266        | 51         | Diomedes Diaz, Ivan Zuleta
+29iVbAneOn1ZGW4zzrBlUb | Cali Ají                       | 276826        | 54         | Grupo Niche
+6bRSkK6yJPQQKrITKViKCU | Te Quiero Más                  | 318580        | 40         | Joe Arroyo, La Verdad
+1Znsl3y50Os8diORZ8jcIl | Chemapale                      | 262243        | 0          | Checo Acosta
+7LHLwdtTHOHNFDuLugtUEH | La Tartamuda                   | 253640        | 44         | Silvestre Dangond, Juancho De La Espriella
+6knQ5UA9vFcdNLj7lCJzqP | Lo Ajeno Se Respeta            | 273066        | 43         | Silvestre Dangond, Rolando Ochoa
+2dg5usl6OJasRbjvUHOlcF | Ella es Tan Bella              | 262133        | 52         | Rikarena
+2xXwJpV9XSULSiFdCVHyru | La Colegiala                   | 295866        | 50         | Silvestre Dangond, Juancho De La Espriella
+0W1NeP4WNvhtsvKmowN1lb | El Hombre Divertido            | 292205        | 42         | Wilfrido Vargas
+6E8LDqPYhgxGyZE44tXXkH | Bachata Merengue               | 277054        | 50         | Wilfrido Vargas
+1QFcugUXrv32vWoKou01z4 | Magia                          | 240001        | 40         | Sergio Vargas
+7hghCod6sKsoSE6c5myofq | La Celosa                      | 254000        | 52         | Carlos Vives
+1yoMvmasuxZfqHEipJhRbp | Hawái                          | 199112        | 83         | Maluma
+4HzqWEdAbzcVFDv0pvxV4w | Sobrio                         | 201180        | 71         | Maluma
+6DUdDIRgLqCGq1DwkNWQTN | Borro Cassette                 | 207306        | 85         | Maluma
+7LABrQFfRYcZUqUwng0Heb | Encantadora                    | 240093        | 82         | Yandel
+2TDyyEBasw10wu5Uh94bR1 | PUNTO 40                       | 190654        | 64         | Rauw Alejandro, Baby Rasta
+4tDUIRZU50xaP0uRAGklqy | Pra pra pra                    | 142734        | 0          | Deavele Santos
+46W0RhOuD4nUPCCc6Gjsg7 | Catalina                       | 198019        | 0          | Mr Black El Presidente
+7HOlapPvYVls2Ei0L83eLn | El Avioncito                   | 208040        | 48         | Giblack
+6n7g87PKuRMXQFgUnM3ri1 | Macta Llega                    | 135000        | 55         | DJ Dever, La Toxi Costeña
+7bfutM1qadONSJ1UAPOKqq | MÍRAME                         | 190001        | 44         | Criss & Ronny, La Colectiva Élite
+2irs5LroVpUDR36Act6UsS | Con Ella - Remix               | 224600        | 50         | Kevin Florez, Nicky Jam
+59L8x0xy8njj75vzVCPMqg | FULANITO                       | 158531        | 60         | Becky G, El Alfa
+2FSGUA0gFgGeQdprjtGM2M | EL MAKINON                     | 209160        | 73         | KAROL G, Mariah Angeliq
+7dSZ6zGTQx66c2GF91xCrb | PROVENZA                       | 210200        | 74         | KAROL G
+1ga4PztXOIw1yBbdUt2X8v | GATÚBELA                       | 209160        | 70         | KAROL G, Maldy
+7FlQk2gJ6TBrHHiidvdR2O | MAMIII                         | 226093        | 77         | Becky G, KAROL G
+6WbAhuwE6fCOriBu5786X1 | CAIRO                          | 201280        | 66         | KAROL G, Ovy On The Drums
+0bI7K9Becu2dtXK1Q3cZNB | Don't Be Shy                   | 140500        | 74         | Tiësto, KAROL G
+0dKg2vGC1hFqcK5LGTaKzX | Tusa                           | 201920        | 73         | KAROL G, Nicki Minaj
+1WvrDdouh6C51In1SdATbq | BICHOTA                        | 178693        | 71         | KAROL G
+49QjsMw8972j5rfODZzWWq | Prometo                        | 219520        | 56         | Fonseca
+4bUrpXdPZIJMPUksA8ggDB | Hasta Viejitos (feat. Carlos Vives) | 199995        | 55         | Alejandro González, Carlos Vives
+6L3Gnl83Hndm9ErMhEW9B4 | Vamo' A Casarno                | 227299        | 39         | Fresto Music
+7mY1dIaY9vY6Jrlrjg3dRn | Quiero Bailar                  | 186506        | 4          | Ivy Queen
+0DWdj2oZMBFSzRsi2Cvfzf | TQG                            | 197933        | 83         | KAROL G, Shakira
+4NoOME4Dhf4xgxbHDT7VGe | X SI VOLVEMOS                  | 200120        | 79         | KAROL G, Romeo Santos
+2tTmW7RDtMQtBk7m2rYeSw | Quevedo: Bzrp Music Sessions, Vol. 52 | 198937        | 83         | Bizarrap, Quevedo
+6Sq7ltF9Qa7SNFBsV5Cogx | Me Porto Bonito                | 178567        | 84         | Bad Bunny, Chencho Corleone
+38UYeBLfvpnDSG9GznZdnL | Tormenta (feat. Bad Bunny)     | 193463        | 72         | Gorillaz, Bad Bunny
+4FAKtPVycI4DxoOHC01YqD | Yandel 150                     | 216148        | 73         | Yandel, Feid
+1IHWl5LamUGEuP4ozKQSXZ | Tití Me Preguntó               | 243716        | 85         | Bad Bunny
+3k3NWokhRRkEPhCzPmV8TW | Ojitos Lindos                  | 258298        | 85         | Bad Bunny, Bomba Estéreo
+79HZAZNnOE97rb2hnI0XQr | LOKERA                         | 197101        | 68         | Rauw Alejandro, Lyanno, Brray
+1797zYiX4cKosMH836X9Gt | La Corriente                   | 198367        | 77         | Bad Bunny, Tony Dize
+41oY4WCTj5kccfesTVFnvN | Tarot                          | 237894        | 80         | Bad Bunny, JHAYCO
+6VrQTLzzuyGIYjUDe4kAZk | Un Coco                        | 196412        | 80         | Bad Bunny
+1O2pcBJGej0pmH2Y9XZMs6 | Una Noche en Medellín          | 153750        | 7          | Cris Mj
+0kTMK4gNFfLXaTb62w1UaJ | BABY OTAKU                     | 176470        | 61         | Pablito Pesadilla, Polimá Westcoast, Nickoog Clk, Fran C
+0OTNHGKcqQbk51bOYe462Y | ULTRA SOLO                     | 227220        | 69         | Polimá Westcoast, Pailita
+2rDZhKnPaPG054ExZ6nXUS | Jordan                         | 176142        | 2          | Ryan Castro
+48AJSd42lXpicsGqcgopof | X ÚLTIMA VEZ                   | 192477        | 69         | Daddy Yankee, Bad Bunny
+4ilZV1WNjL7IxwE81OnaRY | Gatita                         | 153062        | 59         | Bellakath
+6mmPpaltUZK7xjNlBPQQ0p | Desesperados                   | 224996        | 82         | Rauw Alejandro, Chencho Corleone
+2JPLbjOn0wPCngEot2STUS | Yonaguni                       | 206710        | 79         | Bad Bunny
+3FkeNbs9Zeiqkr3WkbOiGp | Envolver                       | 193805        | 70         | Anitta
+4r9jkMEnArtWGH2rL2FZl0 | A Tu Merced                    | 175918        | 78         | Bad Bunny
+4srcMdbm2qzVG98tJajHxp | Pantysito                      | 240413        | 70         | Alejo, Feid, ROBI
+3kUq4sBcmxhnOtNysZ9yrp | Feliz Cumpleaños Ferxxo        | 156400        | 68         | Feid
+2mnXxnrX5vCGolNkaFvVeM | La Jumpa                       | 255693        | 72         | Arcángel, Bad Bunny
+02jLfqc9gMo8PkHEGHY3OT | Si Te La Encuentras Por Ahí    | 191573        | 64         | Feid
+1zsPaEkglFvxjAhrM8yhpr | Hey Mor                        | 196600        | 82         | Ozuna, Feid
+54ELExv56KCAB4UP9cOCzC | Gato de Noche                  | 227013        | 70         | Ñengo Flow, Bad Bunny
+3XjN0mvFkQp1FMVM9Ro5hm | RUMBATÓN                       | 248768        | 64         | Daddy Yankee
+5fhcuVxuBWfgNXGuyAtLmr | Los Cachos                     | 212304        | 62         | Piso 21, Manuel Turizo
+7Dk8r4VR5NoveUvTiCKEXC | Pegao                          | 160733        | 62         | Camilo
+2FYGZDfsAnNsrm1gVbyKnG | SAOKO                          | 137533        | 66         | ROSALÍA
+0UXlu64mDLvfzR8IXMz06J | Ya No Somos Ni Seremos         | 185722        | 12         | Christian Nodal
+32evkZrcFEfIM9SyKm3obK | Qué Locura Enamorarme de Ti    | 305920        | 36         | Los Hermanos Andrade
+7d7aPD2oxuzjhOZnu4Dj23 | Mayor Que Usted                | 233519        | 60         | NATTI NATASHA, Daddy Yankee, Wisin & Yandel
+5CmVYFZinikaqh9Mf2J1Xl | La Ventanita                   | 286466        | 62         | Sergio Vargas
+1IcnHHfeAkdc88LybFWwb9 | Me Liberé                      | 263920        | 64         | El Gran Combo De Puerto Rico
+15wPtgg6jsyMLhIkjcSpl4 | Ahora Es                       | 206946        | 74         | Wisin & Yandel
+2L2zLsybbySytu4RI5z3aK | Ella Es Mi Fiesta              | 246733        | 68         | Carlos Vives
+3KpM91VH9eB3tWWDobLMi5 | La Cartera                     | 199880        | 47         | Carlos Vives
+0HRMIu0FgBAkY0r8XGzExe | El Mar de Sus Ojos (feat. ChocQuibTown) | 233773        | 57         | Carlos Vives, ChocQuibTown
+2BzPF9dX13wqEAo5a3XPR2 | Eres Mi Sueño - Versión Radio Edit | 194400        | 67         | Fonseca
+6IfMD01z39P15HKezjdaMP | Bachata En Fukuoka             | 191106        | 74         | Juan Luis Guerra 4.40
+42lpuSQmnLUM1ZXJVzIVOi | KESI                           | 177255        | 63         | Camilo
+3xqT1gSFXBWbEbkx7IvK3t | Te Empeliculaste               | 298306        | 0          | Peter Manjarres y Sergio Luis Rodriguez
+2VSK0CBTBzki1AOVJV83k8 | X                              | 173627        | 0          | Nicky Jam, J Balvin
+7geOCrsAm3LNJCrH81bR5a | Te Robaré                      | 201821        | 0          | Nicky Jam, Ozuna
+40LW0IOX1DDxqvnTLpAKrq | Passion Whine                  | 213311        | 0          | Farruko, Sean Paul
+6ksWMnPcHNyNoNf3y1BQCO | Noche De Entierro              | 263293        | 75         | Daddy Yankee, Wisin & Yandel, Zion, Hector, Tonny Tun Tun
+4fHYtAHpAmsFDq7kTLzgh5 | Y No Hago Mas Na'              | 301373        | 62         | El Gran Combo De Puerto Rico
+2j2fIJGh4PMdXt9ULI5Tlc | Dura                           | 200480        | 2          | Daddy Yankee
+6InAsgddPjAcuF7mSHDT8K | No Hay Cama Pa' Tanta Gente    | 268106        | 51         | El Gran Combo De Puerto Rico
+1S2WEX1RBJL1ebpEldMG4V | Señora                         | 238893        | 0          | Otto Serge, Rafael Ricardo
+2qlsW9JoDmXNyM7odbFxmn | Vete y Dile                    | 291619        | 0          | Sergio Vargas
+1Ft13La2daEGqz5yWJC7lx | Bella                          | 197120        | 1          | Wolfine
+6gyKkveHSPxKnZfSu0kYbQ | Prende La Vela                 | 288586        | 33         | Totó La Momposina
+0dXGYzrcRP1rmSAumo4wFe | La Vamo a Tumbá                | 260432        | 32         | Herencia de Timbiqui
+1CTgLWnF5RVifJXxTDSiEJ | Me Va Mejor                    | 207911        | 24         | Mauro Castillo
+6WNAd46dtiBqakGzvlcCla | En Barranquilla Me Quedo       | 311676        | 54         | Joe Arroyo, La Verdad
+5w9QfSM6iY9pPaxOj4ByT4 | Arrebatao - Remix              | 209428        | 0          | El Alfa, Zepekeño El Lominero, El Pepo Show
+0SvRJNQmi1nB53cITmaqE6 | Checarnaval: La Rama del Tamarindo / La Danza del Garabato / De Que Me Disfrazaré | 240893        | 46         | Checo Acosta
+5g2cx0mZFmCNp4GexaifFl | Como Tu No Hay Dos             | 226951        | 0          | Buxxi
+1sviDBcAqVOxMXq4xITVEs | Que Calor (with J Balvin & El Alfa) | 169997        | 62         | Major Lazer, J Balvin, El Alfa, Diplo
+63bmZnBN1CiJ9sA4qTEe8y | Adiós Amor                     | 199320        | 77         | Christian Nodal
+1geLwtTJ0LTCwNA2cX8k9z | No Comprendi Tu Amor           | 282920        | 50         | Jorge Oñate, Álvaro López
+6qvCE9WhoF57af6boMwaOz | Vivo en el limbo               | 376533        | 61         | Kaleth Morales, Andres Herrera
+4tVCHHdULzG5acuwFmsRPw | Lo Mejor Para Los Dos (Todo de Cabeza) - Version Guitarra - En Vivo | 251200        | 60         | Kaleth Morales
+6cy3ki60hLwimwIje7tALf | RITMO (Bad Boys For Life)      | 221714        | 72         | Black Eyed Peas, J Balvin
+2ksOAxtIxY8yElEWw8RhgK | China                          | 301714        | 75         | Anuel AA, Daddy Yankee, KAROL G, J Balvin, Ozuna
+6RyaV7owmVU6fzEPE17sF1 | Que Tire Pa Lante              | 210520        | 67         | Daddy Yankee
+2TH65lNHgvLxCKXM3apjxI | Callaita                       | 250533        | 77         | Bad Bunny, Tainy
+3f5lA8nnc4YYF1qf78WpHw | Ella Quiere Beber - Remix      | 219357        | 77         | Anuel AA, Romeo Santos
+4R8BJggjosTswLxtkw8V7P | No Me Conoce - Remix           | 309120        | 6          | JHAYCO, J Balvin, Bad Bunny
+0AEVupnoNEKPU81AOuPwjS | Esta Noche de Travesuras       | 210546        | 0          | Héctor "El Father"
+3KOFm25dQCHhfMuEDNybKT | Viene y Se Va                  | 249160        | 0          | Mauro Castillo
+07PF7Djp1Dmrin3X5fy8nA | Casi Te Envidio                | 321213        | 66         | Andy Montañez
+1QariEMkM75ewzEb128t2C | Mujer de Carne y Hueso         | 294948        | 0          | Guayacán Orquesta
+4mGRIaDuszXYCTGZfLjjpA | Niégame Tres Veces             | 269453        | 62         | Silvestre Dangond
+3SXWtn3YbXOuz6s9LN8LeJ | Cali Pachanguero               | 309920        | 2          | Grupo Niche
+3yEtuhGR8jOtusa29jWrhG | Tu Amor Me Hace Bien - Salsa Version | 300160        | 72         | Marc Anthony
+059bcIhyc2SBwm6sw2AZzd | Te Vi                          | 231848        | 78         | Piso 21, Micro TDH
+0UQwlF2pRkr1lMN6kNNUj3 | La Boca                        | 206279        | 69         | Mau y Ricky, Camilo
+5YJ4BVvTFmVCxUyhKejHfR | Pa' Que Retozen                | 151666        | 80         | Tego Calderón
+1oInQX1RuH1TcHuDv8Gvw3 | Las Avispas                    | 195653        | 56         | Juan Luis Guerra 4.40
+17Sfr3T1chYPGcmM4VlhCh | Oiga, Mire, Vea                | 325642        | 3          | Guayacán Orquesta
+4lq31N4E4eWqVMZv93sbhJ | Mal Bicho                      | 243293        | 61         | Los Fabulosos Cadillacs
+19CmuECYssqkPWANF4nLWM | Para No Verte Más              | 191560        | 77         | La Mosca
+1x6bkwDyWIOZNFY5blRSs1 | La Pachanga                    | 281933        | 69         | Vilma Palma e Vampiros
+34inPy9EJX1LijFMKdpTs3 | SaxoSuelta Oriente Tribe       | 229437        | 61         | Dj Esli, Darek Sotelo
+2YdX7PEziOImkySNDWsaKM | Rise Up - Radio Edit           | 170760        | 59         | Yves Larock
+5GpzV7vCxkwdLloBSZg6Xg | De Millon a Cero               | 323733        | 55         | Kaleth Morales, Juank Ricardo
+7aB1NvTLtOjrDrOc3CYMOi | La Guitarra                    | 218493        | 0          | Los Auténticos Decadentes
+1fz6Ir8cLZLG9GIDj64PPn | Borracho Hasta El Amanecer     | 310733        | 0          | Los Coquillos
+3MhdH8PxqH1FuQp3HBptUI | I'm Still in Love with You (feat. Sasha) | 273360        | 8          | Sean Paul, Sasha, Jeremy Harding, Murray Elias
+0FcgB8l69nXBOmvhvEXm8o | Pegame Tu Vicio                | 303293        | 64         | Eddy Herrera
+1Fp4njyRHJYyMTKP899c0q | El Preso                       | 294000        | 59         | Fruko Y Sus Tesos, Wilson "Saoko" Manyoma
+23jhtHHCIv6TrxLTCjqt2h | Sobre las Olas                 | 199918        | 46         | The Latin Brothers
+6mhw2fEPH4fMF0wolNm96e | Macarena                       | 222626        | 67         | Los Del Rio
+6yCM4N4v44c3xoMORrhLwW | Aserejé                        | 211580        | 53         | Grupo Arenas
+0Tl84qfow6Dv0PM60zoBhb | La Bomba                       | 123960        | 67         | Azul Azul
+5EovvTdzWLCqcoNZARVXJI | Meneaito (Original)            | 223853        | 57         | Gaby
+69Ej1xrGjOcHvIMtMKxK0G | Dile                           | 204600        | 84         | Don Omar
+74ZJp3SBtrpWY38FTSCMte | Ven Bailalo - Reggaeton Mix    | 252773        | 31         | Angel Y Khriz
+5gflgO9EPbIBf16n5TKnQS | Yo Voy (feat. Daddy Yankee)    | 232019        | 80         | Zion & Lennox
+5oQDYIpN3ieXNHwXAr8TXf | Na De Na                       | 202880        | 68         | Angel Y Khriz, Gocho "El Lápiz De Platino", John Eric
+7fGODUqa0gtkb72oBVCgCD | Ella Me Levanto                | 209493        | 48         | Daddy Yankee
+468L8HV8IykzwRs4eEXn4Y | Movimiento de Caderas          | 190000        | 0          | Rayo & Toby
+13plQdOoWSSXPRUSZc5FuM | I Know You Want Me (Calle Ocho) | 237120        | 76         | Pitbull
+11EnQRgRMJwMAesfkB5pnu | Se Te Nota (with Guaynaa)      | 155825        | 69         | Lele Pons, Guaynaa
+7HD4v4EnxsJh4frQP03PBE | Usted No Me Olvida - Remix     | 193175        | 0          | Joaquin Guiller, Pipe Bueno, Paola Jara, Jhonny Rivera
+1qfoq1qvZT7VwDVeekCJ97 | De Los Besos Que Te Di         | 167373        | 77         | Christian Nodal
+6i4OlSxwAfC1IyZkK5Bq8j | Le Hace Falta Un Beso (feat. Pipe Bueno) - Versión Ranchera | 171066        | 35         | Alejandro González, Pipe Bueno
+3GUqkrdLefqJmxVvN5Vgpv | Usted No Me Olvida             | 193137        | 53         | Joaquin Guiller
+0V0350NvG0jvbiUTXPzIXU | Adicta al Dolor                | 173670        | 1          | Marbelle
+3KapNGuqWYFl9gBfJz9tOT | Mujeres Divinas                | 193333        | 72         | Vicente Fernández
+65H6t1WQBim6q93yM8fEwn | Obsesion                       | 254720        | 80         | Aventura, Judy Santos
+61xyQGDYH9yMn4H9MpTh3g | La Plata                       | 278240        | 57         | Diomedes Diaz, Juancho Rois
+26QKsGW4hMuwiEE1ftUMHe | Lo Que Pasó, Pasó              | 210933        | 50         | Daddy Yankee
+0xJFWROBNTBL4sKEuA5pm6 | Guatauba                       | 162400        | 75         | Plan B
+1DxEbt6OSbrkRthk6pjZue | MERCHO                         | 161451        | 68         | LiL CaKe, Migrantes, Nico Valdi
+6aommJFM8i3iT4inKuDSXh | Chachachá                      | 215986        | 80         | Jósean Log
+1UGXsiNn0ACf2MXuHXuiJE | Cartagena                      | 174297        | 51         | Fonseca, Silvestre Dangond
+0CYTGMBYkwUxrj1MWDLrC5 | CHORRITO PA LAS ANIMAS         | 168133        | 78         | Feid
+2z9YkcLojiOE7Eu2p9lPZR | Normal                         | 171986        | 69         | Feid
+2haxvmy6n8quJtJRuORGBh | Punkie - Español Version       | 215266        | 50         | Sean Paul
+4HQa0epS8B23YEHqyA2fKr | Amantes                        | 225840        | 57         | Elder Dayán Díaz, Rolando Ochoa
+16LDbpqgCtvEZDQ5wfOWrj | Nuestra Cancion                | 208640        | 64         | Elvis Crespo
+7c7ajSiiY93LrpBoEBCFgB | Si la Vieras Bailar            | 236500        | 1          | Barbero 507
+5JFLXnWbJ0gsLFalPc5vpH | Lo Grande Que Es Perdonar      | 281813        | 19         | Vico C, Gilberto Santa Rosa
