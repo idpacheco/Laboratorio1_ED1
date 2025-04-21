@@ -4,49 +4,72 @@ from analisis.Archivos import obtenerCampo
 def promedioDuracion(nombre_archivo):
     total_duracion = 0
     total_canciones = 0
-    primera = True
+    linea_num = 0
 
-    file = open(nombre_archivo, "r")
-    for _ in range(4):  # Saltar las primeras 4 líneas decorativas
+    with open(nombre_archivo, "r", encoding="utf-8") as file:
+        for _ in range(4):  # Saltar las primeras 4 líneas
             next(file)
+            linea_num += 1
 
-    for linea in file:
-        if "|" in linea: 
-          if linea.endswith("\n"): 
-              linea = linea[:-1]  
-              duracion_str = obtenerCampo(linea,3) #campo 3 =duración de la canción 
-              total_duracion += float(duracion_str) 
-              total_canciones+=1 
+        for linea in file:
+            linea_num += 1
+            if "|" in linea: 
+                if linea.endswith("\n"): 
+                    linea = linea[:-1]  
+                duracion_str = obtenerCampo(linea, 3).strip().strip('.')
 
-    return total_duracion/total_canciones
+                try:
+                    duracion = float(duracion_str)
+                    total_duracion += duracion
+                    total_canciones += 1
+                except ValueError:
+                    print(f"⚠️ Línea {linea_num}: '{duracion_str}' no es un número. Línea saltada.")
+                    continue  # Salta a la siguiente sin romper
 
-def mayorAlpromedio (nombre_archivo):
-    promedio = promedioDuracion(nombre_archivo) #Se llama la función promedioDuración para obtener un promedio para comparar
-    cont =0
+    if total_canciones == 0:
+        return 0  # evitar división por cero si todo es inválido
+
+    return total_duracion / total_canciones
+
+
+def mayorAlpromedio(nombre_archivo):
+    promedio = promedioDuracion(nombre_archivo)
+    cont = 0
+    linea_num = 0
 
     print(f"🎶 Canciones con duración mayor al promedio ({promedio:.2f} ms):")
-    file = open(nombre_archivo)
-    for _ in range(4):  # Saltar las primeras 4 líneas decorativas
-        next(file)
+    with open(nombre_archivo, "r", encoding="utf-8") as file:
+        for _ in range(4):  # Saltar encabezado
+            next(file)
+            linea_num += 1
 
-    for linea in file:
-        if linea.endswith("\n"):
-            linea = linea[:-1]
-            duracioncancion_str = obtenerCampo(linea,3) # Da el dato de duración de la canción en Str
-            duracioncancion = float(duracioncancion_str) # Toma el dato y lo convierte en float
-            cancionName = obtenerCampo(linea,2)
+        for linea in file:
+            linea_num += 1
+            if linea.endswith("\n"):
+                linea = linea[:-1]
+
+            duracioncancion_str = obtenerCampo(linea,3).strip().strip('.')
+
+            try:
+                duracioncancion = float(duracioncancion_str)
+            except ValueError:
+                print(f"⚠️ Línea {linea_num}: '{duracioncancion_str}' inválida. Saltando...")
+                continue  # Salta la línea con error
+
+            cancionName = obtenerCampo(linea,2).strip()
             if duracioncancion > promedio:
                 print(f"- {cancionName} ({duracioncancion} ms)")
-                cont+=1
+                cont += 1
 
-    if (cont ==0):    
-        print (f"No hay canciones con duración mayor al promedio")
-    return cont 
+    if cont == 0:    
+        print("No hay canciones con duración mayor al promedio.")
+    return cont
+ 
 
 #4. ¿Cuántas operaciones de lectura son necesarias para encontrar todas las canciones de un artista específico?
 def buscarCancionesArtista(nombre_archivo, artista_buscado):
     try:
-        with open(nombre_archivo, "r") as f:
+        with open(nombre_archivo, "r", encoding="utf-8") as f:
             count = 0    # Cantidad de canciones encontradas
             lecturas = 0   # Cantidad de líneas leídas (operaciones de lectura)
 

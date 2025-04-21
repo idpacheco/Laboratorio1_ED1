@@ -1,5 +1,7 @@
+import time
+import requests
 def guardarCanciones (canciones, nombreArchivo):
-    file=open(nombreArchivo, "w") #Crear el archivo y escribir sobre el archivo
+    file = open(nombreArchivo, "w", encoding="utf-8") #Crear el archivo y escribir sobre el archivo
     file.write("CANCIONES".center(100, "=") + "\n\n")
     # Encabezado
     file.write(f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas\n")
@@ -19,9 +21,9 @@ def guardarCanciones (canciones, nombreArchivo):
         file.write(f"{id_cancion:22} | {nombre:30} | {duracion:<13} | {popularidad:<10} | {artistas_str}\n")
     file.close()
 
+
 # los datos que se obtienen de los artistas son limitados (nombre, ID, etc.), pero no incluyen la popularidad del artista.
-def getPopularidadArtista(artist_id, token): #La única forma de obtener el campo 'popularidad' de un artista es haciendo una solicitud directa al endpoint del artista.
-    import requests
+def getPopularidadArtista(artist_id, token):  # La única forma de obtener el campo 'popularidad' de un artista es haciendo una solicitud directa al endpoint del artista.
     try:
         url = f"https://api.spotify.com/v1/artists/{artist_id}"
         headers = {"Authorization": f"Bearer {token}"}
@@ -34,10 +36,9 @@ def getPopularidadArtista(artist_id, token): #La única forma de obtener el camp
     except Exception as e:
         print(f"Error al obtener popularidad del artista: {e}")
         return 0
-    
+
 def guardarArtistas(canciones, nombreArchivo, token):
-    import requests
-    file = open(nombreArchivo, "w")
+    file = open(nombreArchivo, "w", encoding="utf-8")  # Crear el archivo y escribir sobre el archivo
 
     artistas_agrup = {}
     popularidades = {}  # caché de popularidades
@@ -66,13 +67,15 @@ def guardarArtistas(canciones, nombreArchivo, token):
         id_artista = datos['id']
         canciones_ids = datos['canciones']
 
-        # Obtener popularidad (con caché)
+        # Obtener popularidad (con caché y pausa para evitar 429)
         if id_artista not in popularidades:
             popularidades[id_artista] = getPopularidadArtista(id_artista, token)
-        popularidad = popularidades[id_artista]
+            time.sleep(0.3)  # <<--- Pausa para no saturar el servidor
 
+        popularidad = popularidades[id_artista]
         cantidad = len(canciones_ids)
         canciones_str = ", ".join(canciones_ids)
+
         linea = f"{artista:30} | {popularidad:<12} | {cantidad:<12} | {canciones_str}\n"
         file.write(linea)
 

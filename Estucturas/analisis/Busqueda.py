@@ -29,17 +29,11 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
         linea_archivo = 5 + mitad  # Asumiendo que los datos comienzan en la línea 5
         linea = linecache.getline(archivo, linea_archivo).strip()
 
-        # Depuración: Mostrar la línea que estamos procesando
-        print(f"\nBuscando popularidad: {popularidad_buscada}")
-        print(f"Línea actual: {linea} (Línea en el archivo: {linea_archivo})")
-
         # Limpiar espacios extra y caracteres no visibles
         linea_limpia = ''.join(linea.split())  # Elimina todos los espacios
-        print(f"Línea limpia: {linea_limpia}")
 
         # Saltar líneas vacías o mal formateadas
-        if not linea_limpia or "-" in linea_limpia:
-            print("⚠️ Línea vacía o mal formada.")
+        if not linea_limpia:
             inicio += 1
             continue
 
@@ -47,14 +41,7 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
             # Limpiar el campo de la popularidad para eliminar posibles espacios extra
             popu_actual = int(obtenerCampo(linea, 4).strip())
         except:
-            print("⚠️ Línea inválida:", linea)
             break
-
-        # Depuración: Ver la popularidad que estamos procesando
-        print(f"Popularidad actual: {popu_actual}")
-
-        # Mostrar los valores que estamos comparando
-        print(f"Comparando: popularidad_buscada ({popularidad_buscada}) con popu_actual ({popu_actual})")
 
         if popu_actual == popularidad_buscada:
             print("\n✅ Canción encontrada:")
@@ -100,20 +87,14 @@ def busquedaBinariaPopularidad(archivo, popularidad_buscada):
 
         # Lógica para archivos ordenados de mayor a menor
         elif popu_actual < popularidad_buscada:
-            print(f"Ajustando el rango de búsqueda: fin = {mitad - 1}")
             fin = mitad - 1
         else:
-            print(f"Ajustando el rango de búsqueda: inicio = {mitad + 1}")
             inicio = mitad + 1
-
-        # Depuración: Mostrar los índices de búsqueda en cada paso
-        print(f"Rango de búsqueda: inicio={inicio}, fin={fin}, mitad={mitad}")
 
     if not encontrado:
         print("❌ No se encontró ninguna canción con esa popularidad.")
 
     linecache.clearcache()
-
 
 
 #9. Propón una estructura de archivos de índices para acelerar las búsquedas por artista sin perder el enfoque secuencial.

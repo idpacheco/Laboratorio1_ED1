@@ -37,4 +37,4 @@ def obtenerCampo(linea, numero_campo):
 
         i += 1
 
-    return campo
+    return campo.strip()  # <-- esta línea es la clave

@@ -5,7 +5,7 @@ from analisis.Archivos import obtenerCampo
 def artistaMasCanciones(nombre_archivo):
     max_artista = None
     max_canciones = 0
-    file = open(nombre_archivo, "r")
+    file = open(nombre_archivo, "r",encoding="utf-8")
 
     for _ in range(4):  # Saltar cabecera decorativa
         next(file)
@@ -35,7 +35,7 @@ def artistaMasPopular(nombre_archivo):
         max_artista = None
         max_popularidad = -1  # Inicializamos con un valor imposible de popularidad
 
-        with open(nombre_archivo, "r") as f:
+        with open(nombre_archivo, "r",encoding="utf-8") as f:
             # Saltamos las primeras 4 líneas si son encabezados
             for _ in range(4):
                 next(f)
