@@ -1,25 +1,32 @@
 import time
 import requests
-def guardarCanciones (canciones, nombreArchivo):
-    file = open(nombreArchivo, "w", encoding="utf-8") #Crear el archivo y escribir sobre el archivo
-    file.write("CANCIONES".center(100, "=") + "\n\n")
-    # Encabezado
-    file.write(f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas\n")
-    file.write("-" * 100 + "\n")
-    
-    for item in canciones:
-        track = item['track']
-        id_cancion = track['id']
-        nombre = track['name']
-        duracion = track['duration_ms']
-        popularidad = track['popularity']
+def guardarCanciones(canciones, nombreArchivo):
+    with open(nombreArchivo, "w", encoding="utf-8") as file:
+        file.write("CANCIONES".center(100, "=") + "\n\n")
+        file.write(f"{'ID':22} | {'Nombre':30} | {'Duración (ms)':13} | {'Popularidad':10} | Artistas\n")
+        file.write("-" * 100 + "\n")
 
-        artistas = [artista['name'] for artista in track['artists']]
-        artistas_str = ", ".join(artistas)
-        # Escribir en una línea todos los datos de la canción separados por |
-        # Formato alineado
-        file.write(f"{id_cancion:22} | {nombre:30} | {duracion:<13} | {popularidad:<10} | {artistas_str}\n")
-    file.close()
+        for index, item in enumerate(canciones, start=1):
+            try:
+                # verifica si item es None o no tiene 'track'
+                if item is None or 'track' not in item or item['track'] is None:
+                    raise ValueError(f"Track en item #{index} es None o no existe.")
+
+                track = item['track']
+
+                id_cancion = track['id']
+                nombre = track['name']
+                duracion = track['duration_ms']
+                popularidad = track['popularity']
+
+                artistas = [artista['name'] for artista in track['artists']]
+                artistas_str = ", ".join(artistas)
+
+                file.write(f"{id_cancion:22} | {nombre:30} | {duracion:<13} | {popularidad:<10} | {artistas_str}\n")
+
+            except Exception as e:
+                print(f"⚠️ Error en la canción #{index}: {e}")
+                continue  # Salta y sigue con la siguiente canción.
 
 
 # los datos que se obtienen de los artistas son limitados (nombre, ID, etc.), pero no incluyen la popularidad del artista.
@@ -43,22 +50,31 @@ def guardarArtistas(canciones, nombreArchivo, token):
     artistas_agrup = {}
     popularidades = {}  # caché de popularidades
 
-    for item in canciones:
-        track = item['track']
-        id_cancion = track['id']
+    for index, item in enumerate(canciones, start=1):
+        try:
+            if item is None or 'track' not in item or item['track'] is None:
+                raise ValueError(f"Track en item #{index} es None o no existe.")
 
-        for artista in track['artists']:
-            nombre_artista = artista['name']
-            id_artista = artista['id']
+            track = item['track']
+            id_cancion = track['id']
 
-            if nombre_artista not in artistas_agrup:
-                artistas_agrup[nombre_artista] = {
-                    'id': id_artista,
-                    'canciones': []
-                }
+            for artista in track['artists']:
+                nombre_artista = artista['name']
+                id_artista = artista['id']
 
-            artistas_agrup[nombre_artista]['canciones'].append(id_cancion)
+                if nombre_artista not in artistas_agrup:
+                    artistas_agrup[nombre_artista] = {
+                        'id': id_artista,
+                        'canciones': []
+                    }
 
+                artistas_agrup[nombre_artista]['canciones'].append(id_cancion)
+
+        except Exception as e:
+            print(f"⚠️ Error en item #{index}: {e}")
+            continue  # salta al siguiente item y no rompe
+
+    # Escribir encabezados
     file.write("ARTISTAS".center(120, "=") + "\n\n")
     file.write(f"{'Artista':30} | {'Popularidad':12} | {'# Canciones':12} | Canciones\n")
     file.write("-" * 120 + "\n")
@@ -70,7 +86,7 @@ def guardarArtistas(canciones, nombreArchivo, token):
         # Obtener popularidad (con caché y pausa para evitar 429)
         if id_artista not in popularidades:
             popularidades[id_artista] = getPopularidadArtista(id_artista, token)
-            time.sleep(0.3)  # <<--- Pausa para no saturar el servidor
+            time.sleep(0.3)  # pausa para no saturar Spotify API
 
         popularidad = popularidades[id_artista]
         cantidad = len(canciones_ids)

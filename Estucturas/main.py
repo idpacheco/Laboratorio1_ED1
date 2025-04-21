@@ -17,7 +17,7 @@ client_secret="074fa5a7c4044b459e108f9ef5ff6c50"
 token = getAccessToken(client_id, client_secret)
 
 #Obtener la playlist
-playlist = getPlayList(token, "23UCvUZppuzEQXwn7vglyb")
+playlist = getPlayList(token, "2ugzx94qpUhntEQnTmRCJ8")
 # Imprimir canciones
 def printTrackNames(playlist_json):
     try:
